@@ -1,0 +1,21 @@
+{
+  "name": "auction-backend",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "@types/multer": "^1.4.12",
+    "dotenv": "^16.4.7",
+    "hono": "^4.7.5",
+    "mongoose": "^8.12.1",
+    "multer": "^1.4.5-lts.2",
+    "uuid": "^11.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.19.3"
+  }
+}
