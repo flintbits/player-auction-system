@@ -53,6 +53,19 @@ playersApis.get("/:playerId", async (c) => {
   }
 });
 
+playersApis.get("/playerByNumber/:playerId", async (c) => {
+  let playerId = c.req.param("playerId");
+  customLogger(`Fetching player: ${playerId}`);
+  try {
+    const player = await Players.findOne({referanceNumber: playerId})
+    return c.json(player);
+  } catch (error) {
+    return c.json({
+      status: "failure",
+    });
+  }
+});
+
 playersApis.put("/:playerId", async (c) => {
   let playerId = c.req.param("playerId");
   let player = await c.req.json<IPlayer>();

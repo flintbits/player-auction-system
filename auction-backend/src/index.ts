@@ -67,5 +67,6 @@ const io = new Server<ClientToServerEvents, ServerToClientEvents>(
 
 io.on("connection", (socket) => {
     console.log("Client connected:", socket.id);
+    
     registerEvents(io, socket);
 });
