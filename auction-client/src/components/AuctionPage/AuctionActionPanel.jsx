@@ -36,13 +36,12 @@ const AuctionActionPanel = ({
   });
   const isInputValidated = player && soldToTeam && hammerPrice;
 
-  const { socket } = useSocket;
+  const { socket } = useSocket();
 
   const handleUnsold = async (id) => {
     await axiosPost(`auction/markUnsold/${id}`)
       .then((res) => {
         notyf.success(`${player.name} is unsold`);
-        fetchRandomPlayer();
       })
       .catch((e) => {
         console.log("something went wrong", e);
@@ -60,7 +59,6 @@ const AuctionActionPanel = ({
         setConfirmBidDialog(false);
         setHammerPrice(0);
         notyf.success(`${player.name} is sold to ${soldToTeam.name}`);
-        fetchRandomPlayer();
       })
       .catch((e) => {
         console.log("something went wrong", e);
@@ -68,10 +66,16 @@ const AuctionActionPanel = ({
   };
 
   const updateBid = () => {
-    const currentPrice = hammerPrice;
-    currentPrice += 1000;
+    let currentPrice = Number(hammerPrice);
+    if (currentPrice < 2500) {
+      currentPrice += 250;
+    } else if (currentPrice > 2500 && currentPrice < 10000) {
+      currentPrice += 500;
+    } else {
+      currentPrice += 1000;
+    }
     setHammerPrice(currentPrice);
-    socket.emmit("updateBid", currentPrice, soldToTeam);
+    socket.emit("bidPlayer", currentPrice, "test team");
   };
 
   return (

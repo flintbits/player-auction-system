@@ -7,14 +7,9 @@ import Modal from "../Modal/Modal";
 import { Notyf } from "notyf";
 import { useSocket } from "../../hooks/useSocket";
 
-/*
-  onConnect - current player
-  update - new Player
-*/
-
 const PlayersSection = ({ teamList, fetchTeams }) => {
   const [randomPlayer, setRandomPlayer] = useState([]);
-  const [currentPrice, setCurrentPrice] = useState(0);
+  const [currentPrice, setCurrentPrice] = useState(1000);
   const [category, setCategory] = useState(PLAYERCATEGORY[0].value);
   const [resetKey, setResetKey] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -43,49 +38,27 @@ const PlayersSection = ({ teamList, fetchTeams }) => {
 
   const { socket, connected } = useSocket();
 
-  // useEffect(() => {
-  //   socket.emit("onConnection");
-
-  //   const handlePlayer = (currentPlayer) => {
-  //     console.log(currentPlayer);
-  //     setRandomPlayer([currentPlayer]);
-  //     setLoading(false);
-  //   };
-
-  //   setLoading(true);
-  //   socket.on("onConnection", handlePlayer);
-
-  //   return () => {
-  //     socket.off("onConnection", handlePlayer);
-  //   };
-  // }, [socket]);
-
   useEffect(() => {
     socket.emit("onConnection");
-    const handlePlayer = (currentPlayer, bidPrice, team) => {
-      setCurrentPrice(bidPrice);
+    const handlePlayer = (currentPlayer) => {
       setRandomPlayer([currentPlayer]);
       setLoading(false);
     };
 
+    const handleBid = (bidPrice, team) => {
+      console.log({ bidPrice });
+      setCurrentPrice(bidPrice);
+    };
+
     setLoading(true);
     socket.on("updatePlayer", handlePlayer);
+    socket.on("updateBid", handleBid);
 
     return () => {
       socket.off("updatePlayer", handlePlayer);
+      socket.off("updateBid", handleBid);
     };
   }, [socket]);
-
-  // const handleRoundOver = async () => {
-  //   console.log("hello");
-  //   await axiosPut(`auction/endRound/${category}`)
-  //     .then((res) => {
-  //       notyf.success("Next round");
-  //       setRoundOver(false);
-  //       fetchRandomPlayer();
-  //     })
-  //     .catch((e) => console.error(e));
-  // };
 
   return (
     <section className="px-4 py-2">
@@ -96,16 +69,6 @@ const PlayersSection = ({ teamList, fetchTeams }) => {
               ? `${randomPlayer[0]?.name}`
               : "No Player found"}
           </h1>
-          <select
-            onChange={(e) => setCategory(e.target.value)}
-            className=" border-b-1 border-[#E0E0E0]  px-2  focus:outline-none"
-          >
-            {PLAYERCATEGORY.map(({ name, value }) => (
-              <option key={name} value={value}>
-                {name}
-              </option>
-            ))}
-          </select>
         </section>
 
         <AuctionActionPanel

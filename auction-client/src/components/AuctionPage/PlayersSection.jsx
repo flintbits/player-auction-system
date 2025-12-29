@@ -9,7 +9,7 @@ import { useSocket } from "../../hooks/useSocket";
 
 const PlayersSection = ({ teamList, fetchTeams }) => {
   const [randomPlayer, setRandomPlayer] = useState([]);
-  const [hammerPrice, setHammerPrice] = useState(0);
+  const [hammerPrice, setHammerPrice] = useState(1000);
   const [category, setCategory] = useState(PLAYERCATEGORY[0].value);
   const [resetKey, setResetKey] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -80,16 +80,6 @@ const PlayersSection = ({ teamList, fetchTeams }) => {
               ? `${randomPlayer[0]?.name}`
               : "No Player found"}
           </h1>
-          <select
-            onChange={(e) => setCategory(e.target.value)}
-            className=" border-b-1 border-[#E0E0E0]  px-2  focus:outline-none"
-          >
-            {PLAYERCATEGORY.map(({ name, value }) => (
-              <option key={name} value={value}>
-                {name}
-              </option>
-            ))}
-          </select>
         </section>
 
         <AuctionActionPanel
