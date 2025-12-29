@@ -27,7 +27,9 @@ function registerEvents(
     }
 
     function onConnection(){
-        socket.emit("onConnection", currentPlayer, bidPrice, teams)
+        // socket.emit("onConnection", currentPlayer, bidPrice, teams)
+        socket.emit("updatePlayer",currentPlayer)
+        socket.emit("updateBid", bidPrice, teams)
     }
 
     socket.on("nextPlayer", nextPlayer);

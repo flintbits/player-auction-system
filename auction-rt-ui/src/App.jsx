@@ -1,7 +1,5 @@
 import AuctionPage from "./pages/AuctionPage";
 import Layout from "./pages/Layout";
-import PlayerTeamDashboard from "./pages/PlayerTeamDashboard";
-
 import { createBrowserRouter, RouterProvider } from "react-router";
 
 function App() {

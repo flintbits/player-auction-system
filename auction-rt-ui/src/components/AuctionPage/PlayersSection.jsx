@@ -5,9 +5,16 @@ import AuctionPlayerDetails from "./AuctionPlayerDetails";
 import { PLAYERCATEGORY } from "../../constants/PlayerCategory";
 import Modal from "../Modal/Modal";
 import { Notyf } from "notyf";
+import { useSocket } from "../../hooks/useSocket";
+
+/*
+  onConnect - current player
+  update - new Player
+*/
 
 const PlayersSection = ({ teamList, fetchTeams }) => {
   const [randomPlayer, setRandomPlayer] = useState([]);
+  const [currentPrice, setCurrentPrice] = useState(0);
   const [category, setCategory] = useState(PLAYERCATEGORY[0].value);
   const [resetKey, setResetKey] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -34,34 +41,51 @@ const PlayersSection = ({ teamList, fetchTeams }) => {
     ],
   });
 
-  const fetchRandomPlayer = async () => {
-    setLoading(true);
-    try {
-      const response = await axiosGet(`auction/randomPlayers/${category}`);
-      setResetKey((prev) => !prev);
-      await fetchTeams();
-      setRandomPlayer(response.data);
-    } catch (e) {
-      console.error("Something went wrong", e);
-    } finally {
-      setLoading(false);
-    }
-  };
+  const { socket, connected } = useSocket();
+
+  // useEffect(() => {
+  //   socket.emit("onConnection");
+
+  //   const handlePlayer = (currentPlayer) => {
+  //     console.log(currentPlayer);
+  //     setRandomPlayer([currentPlayer]);
+  //     setLoading(false);
+  //   };
+
+  //   setLoading(true);
+  //   socket.on("onConnection", handlePlayer);
+
+  //   return () => {
+  //     socket.off("onConnection", handlePlayer);
+  //   };
+  // }, [socket]);
 
   useEffect(() => {
-    fetchRandomPlayer();
-  }, [category]);
+    socket.emit("onConnection");
+    const handlePlayer = (currentPlayer, bidPrice, team) => {
+      setCurrentPrice(bidPrice);
+      setRandomPlayer([currentPlayer]);
+      setLoading(false);
+    };
 
-  const handleRoundOver = async () => {
-    console.log("hello");
-    await axiosPut(`auction/endRound/${category}`)
-      .then((res) => {
-        notyf.success("Next round");
-        setRoundOver(false);
-        fetchRandomPlayer();
-      })
-      .catch((e) => console.error(e));
-  };
+    setLoading(true);
+    socket.on("updatePlayer", handlePlayer);
+
+    return () => {
+      socket.off("updatePlayer", handlePlayer);
+    };
+  }, [socket]);
+
+  // const handleRoundOver = async () => {
+  //   console.log("hello");
+  //   await axiosPut(`auction/endRound/${category}`)
+  //     .then((res) => {
+  //       notyf.success("Next round");
+  //       setRoundOver(false);
+  //       fetchRandomPlayer();
+  //     })
+  //     .catch((e) => console.error(e));
+  // };
 
   return (
     <section className="px-4 py-2">
@@ -85,9 +109,10 @@ const PlayersSection = ({ teamList, fetchTeams }) => {
         </section>
 
         <AuctionActionPanel
+          currentPrice={currentPrice}
           player={randomPlayer[0]}
           teamList={teamList}
-          fetchRandomPlayer={fetchRandomPlayer}
+          // fetchRandomPlayer={fetchRandomPlayer}
           key={resetKey}
         />
         {loading ? (
@@ -97,41 +122,42 @@ const PlayersSection = ({ teamList, fetchTeams }) => {
         ) : !loading && randomPlayer.length > 0 ? (
           <AuctionPlayerDetails player={randomPlayer[0]} />
         ) : (
-          <section className="flex flex-col gap-4 items-center justify-center h-40 mt-2 rounded-md">
-            <p>No player found</p>
-            <section className="flex items-center gap-2 flex-col justify-between border-1 p-2 rounded-md text-red-500">
-              <p>Note: Click on Round Over if no players are available</p>
-              <button
-                onClick={() => setRoundOver(true)}
-                className="cursor-pointer bg-red-200 rounded-md p-2 active:scale-95"
-              >
-                Round Over
-              </button>
-            </section>
-            {isRoundOver && (
-              <Modal onClose={() => setRoundOver(false)}>
-                <section className="flex justify-center flex-col gap-2">
-                  <h1 className="font-semibold text-xl text-gray-500">
-                    Confirm Round Over
-                  </h1>
-                </section>
-                <section className="flex items-center justify-between mt-6">
-                  <button
-                    onClick={() => setRoundOver(false)}
-                    className="bg-red-200 active:bg-red-300 text-red-400 rounded p-1"
-                  >
-                    Cancel
-                  </button>
-                  <button
-                    className="bg-blue-200 active:bg-blue-400 text-blue-500 rounded p-1"
-                    onClick={() => handleRoundOver()}
-                  >
-                    Proceed
-                  </button>
-                </section>
-              </Modal>
-            )}
-          </section>
+          <h1>Waiting for the player</h1>
+          // <section className="flex flex-col gap-4 items-center justify-center h-40 mt-2 rounded-md">
+          //   <p>No player found</p>
+          //   <section className="flex items-center gap-2 flex-col justify-between border-1 p-2 rounded-md text-red-500">
+          //     <p>Note: Click on Round Over if no players are available</p>
+          //     <button
+          //       onClick={() => setRoundOver(true)}
+          //       className="cursor-pointer bg-red-200 rounded-md p-2 active:scale-95"
+          //     >
+          //       Round Over
+          //     </button>
+          //   </section>
+          //   {isRoundOver && (
+          //     <Modal onClose={() => setRoundOver(false)}>
+          //       <section className="flex justify-center flex-col gap-2">
+          //         <h1 className="font-semibold text-xl text-gray-500">
+          //           Confirm Round Over
+          //         </h1>
+          //       </section>
+          //       <section className="flex items-center justify-between mt-6">
+          //         <button
+          //           onClick={() => setRoundOver(false)}
+          //           className="bg-red-200 active:bg-red-300 text-red-400 rounded p-1"
+          //         >
+          //           Cancel
+          //         </button>
+          //         <button
+          //           className="bg-blue-200 active:bg-blue-400 text-blue-500 rounded p-1"
+          //           onClick={() => handleRoundOver()}
+          //         >
+          //           Proceed
+          //         </button>
+          //       </section>
+          //     </Modal>
+          //   )}
+          // </section>
         )}
       </section>
     </section>
