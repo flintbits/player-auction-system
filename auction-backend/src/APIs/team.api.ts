@@ -1,6 +1,7 @@
 import { Hono } from "hono";
 import { Teams, type ITeams } from "../database/teamsSchema.js";
 import { customLogger } from "../custom_logger.js";
+import { loadTeams } from "../util/excelToJson.js";
 
 const teamsApis = new Hono();
 
@@ -89,4 +90,9 @@ teamsApis.delete("/", async (c) => {
     });
   }
 });
+
+teamsApis.get("/addTeams/", async (c) =>{
+  return c.json(await loadTeams(Teams))
+})
+
 export default teamsApis;

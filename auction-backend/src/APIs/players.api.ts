@@ -131,8 +131,7 @@ playersApis.patch("/updatePic", async (c) => {
 });
 
 playersApis.get("/addAllPlayers/", async (c)=>{
-  customLogger(`Here`);
-  
+
   return c.json(await loadPlayerToDatabase(Players))
 })
 
