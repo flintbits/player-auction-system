@@ -51,7 +51,6 @@ const TeamsSection = ({ teamList }) => {
                 setSelectedTeam(team);
               }}
             >
-
               <section className="flex items-center gap-2 justify">
                 <section className="w-20 h-20 overflow-hidden relative rounded-md mr-5">
                   <img
@@ -63,9 +62,10 @@ const TeamsSection = ({ teamList }) => {
                 </section>
                 <h1 className="font-semibold  text-lg w-1/3">{team.name}</h1>
                 <p className="font-bold text-lg w-1/3">{team.purseValue}</p>
-                <p className="font-bold  text-lg w-1/3">{team.players.length}</p>
+                <p className="font-bold  text-lg w-1/3">
+                  {team.players.length}
+                </p>
               </section>
-
             </section>
           ))
         ) : (
@@ -94,7 +94,6 @@ const TeamsSection = ({ teamList }) => {
             <section className="flex justify-between bg-gray-100 p-2 rounded-md w-full">
               <p className="w-1/2">Purse Value : {selectedTeam.purseValue}</p>
               <p className="w-1/2">Players : {selectedTeam.players.length}</p>
-
             </section>
             <section className="border-1 border-gray-200 "></section>
             {selectedTeam.players.length === 0 ? (
@@ -112,7 +111,7 @@ const TeamsSection = ({ teamList }) => {
                   {selectedTeam.players.map((player, index) => (
                     <PlayerCard
                       name={player.name}
-                      gender={player.gender}
+                      // gender={player.gender}
                       bid={player.price}
                       category={player.category}
                       key={index}

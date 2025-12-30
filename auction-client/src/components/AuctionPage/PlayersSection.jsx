@@ -80,6 +80,16 @@ const PlayersSection = ({ teamList, fetchTeams }) => {
               ? `${randomPlayer[0]?.name}`
               : "No Player found"}
           </h1>
+          <select
+            onChange={(e) => setCategory(e.target.value)}
+            className=" border-b-1 border-[#E0E0E0]  px-2  focus:outline-none"
+          >
+            {PLAYERCATEGORY.map(({ name, value }) => (
+              <option key={name} value={value}>
+                {name}
+              </option>
+            ))}
+          </select>
         </section>
 
         <AuctionActionPanel

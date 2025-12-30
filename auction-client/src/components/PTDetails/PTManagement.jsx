@@ -58,12 +58,12 @@ const PTManagement = ({ formType }) => {
 
   const handleFormDataChange = (value, fieldName) => {
     let parsedValue = value;
-    if (fieldName === "dob") {
-      // const date = new Date(value);
-      // parsedValue = date.toISOString().split("T")[0];
-    } else if (fieldName === "expertice") {
-      parsedValue = Number(value);
-    }
+    // if (fieldName === "dob") {
+    //   // const date = new Date(value);
+    //   // parsedValue = date.toISOString().split("T")[0];
+    // } else if (fieldName === "expertice") {
+    //   parsedValue = Number(value);
+    // }
     setFormData((prev) => ({ ...prev, [fieldName]: parsedValue }));
   };
 
@@ -91,7 +91,8 @@ const PTManagement = ({ formType }) => {
       <section className="p-4 rounded-md w-xl">
         <section className="flex items-center justify-between mb-4">
           <h1 className="text-lg font-semibold ">
-            {formType === "players" ? "Player" : "Team"} List ({filteredList?.length})
+            {formType === "players" ? "Player" : "Team"} List (
+            {filteredList?.length})
           </h1>
           <section className="flex items-center gap-1">
             {filterString?.length > 0 && (

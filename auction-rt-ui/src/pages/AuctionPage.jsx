@@ -13,7 +13,7 @@ const AuctionPage = () => {
     } catch (e) {
       console.error(e);
     }
-  }, []);
+  }, [teamList]);
 
   useEffect(() => {
     if (teamList.length === 0) {

@@ -6,14 +6,14 @@ import { axiosGet } from "../services/apiServices";
 const AuctionPage = () => {
   const [teamList, setTeamList] = useState([]);
 
-  const fetchTeams = useCallback(async () => {
+  const fetchTeams = async () => {
     try {
       const res = await axiosGet(`teams`);
       setTeamList(res.data);
     } catch (e) {
       console.error(e);
     }
-  }, []);
+  };
 
   useEffect(() => {
     if (teamList.length === 0) {
