@@ -8,13 +8,14 @@ export interface IPlayer {
     location: string;
     email: string;
     contact: number;
-    gender: string;
-    photo:string,
-    expertice: number;
+    photo:string;
     basePrice: number;
-    dob: string;
-    hand: string;
     price: number;
+    skil: string;
+    battingRating: number;
+    bowlingRating: number;
+    bowlingStyle: number;
+    fieldingRating: number;
     team: string;
     category: string[];
     referanceNumber: number;
@@ -29,14 +30,14 @@ const PlayerSchema = new Schema({
     location: { type: String, require: false },
     email: { type: String, require: false },
     contact: { type: Number, require: true, default: 1 },
-    gender: { type: String, require: true },
     photo: { type: String, require: false },
-    expertice: { type: Number, require: true, default: 1 },
-    basePrice: { type: Number, require: true, default: 200 },
-    dob: { type: String, require: true, default: "1-1-2000" },
-    hand: { type: String, require: true, default: "right" },
+    battingRating: { type: Number, require: false, default: 1 },
+    bowlingRating: { type: Number, require: false, default: 1 },
+    bowlingStyle: { type: String, require: false, default: "" },
+    fieldingRating: { type: Number, require: false, default: 1 },
+    basePrice: { type: Number, require: true, default: 1000 },
     price: { type: Number, require: false, default: 0 },
-    team: { type: String, require: true },
+    team: { type: String, require: false, default:"" },
     category: { type: [String], require: true, default: ["General"] },
     referanceNumber: { type: Number, require: true, default: 0 },
     markUnsold: { type: Boolean, require: true, default: false },

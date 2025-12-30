@@ -1,0 +1,2358 @@
+[
+    {
+        "name": "Venugopal Bhat",
+        "age": 38,
+        "houseName": "Kaniyala Jalu",
+        "location": "Bengaluru",
+        "email": "venukan2@gmail.com",
+        "contact": 9845617372,
+        "photo": "Screenshot_20251028_124754_Gallery - venu bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Left Hand Bowler Right Hand Batsmen",
+        "battingRating": 7,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 7,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 1
+    },
+    {
+        "name": "Praveen Sathy",
+        "age": 43,
+        "houseName": "Angraje",
+        "location": "Bengaluru",
+        "email": "praveen.angraje@gmail.com",
+        "contact": 9845491841,
+        "photo": "IMG_6237 - Praveen Sathyanarayana.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 5
+    },
+    {
+        "name": "SHASHANK KOTE",
+        "age": 23,
+        "houseName": "Kote",
+        "location": "Kote",
+        "email": "shashankkote007@gmail.com",
+        "contact": 6282334497,
+        "photo": "IMG_2859 - Shashank Kote.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 7,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 9
+    },
+    {
+        "name": "K Navaneeth Rao",
+        "age": 23,
+        "houseName": "Taire",
+        "location": "Mangalore",
+        "email": "knavaneeth85@gmail.com",
+        "contact": 9008667046,
+        "photo": "20231231_104231 - K NAVANEETH.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 9,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 9,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 39
+    },
+    {
+        "name": "Sanath Kumar",
+        "age": 28,
+        "houseName": "Atikukke",
+        "location": "Bengaluru",
+        "email": "sanathkumaratikukke@gmail.com",
+        "contact": 9656799346,
+        "photo": "IMG_20251103_204756 - Sanath Kumar A.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 47
+    },
+    {
+        "name": "Sandeep Ghate",
+        "age": 24,
+        "houseName": "Darbhe",
+        "location": "Puttur",
+        "email": "sandeepghate431@gmail.com",
+        "contact": 9902019653,
+        "photo": "IMG_9333 - Sandeep Ghate.JPG",
+        "basePrice": 1000,
+        "skill": "Left Hand Batter & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 5,
+        "bowlingStyle": "Spinner",
+        "fieldingRating": 5,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 58
+    },
+    {
+        "name": "Manamohana K",
+        "age": 33,
+        "houseName": "Kochi",
+        "location": "Agalpady",
+        "email": "kochimanu@gmail.com",
+        "contact": 7907686449,
+        "photo": "IMG-20251124-WA0042 - Ideal Consultants.jpg",
+        "basePrice": 1000,
+        "skill": "Wicket Keepeer",
+        "battingRating": 5,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 4,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 59
+    },
+    {
+        "name": "Manohar Chiplunkar",
+        "age": 35,
+        "houseName": "Shirantadka",
+        "location": "Bengaluru",
+        "email": "chiplunkarmanush@gmail.com",
+        "contact": 9538827608,
+        "photo": "MJ_01408 - Manohar chiplunkar.JPG",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Wicket Keepeer",
+        "battingRating": 6,
+        "bowlingRating": 5,
+        "bowlingStyle": "Spinner & Pacer/Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 67
+    },
+    {
+        "name": "Rachan",
+        "age": 28,
+        "houseName": "Yedamale",
+        "location": "Bangalore",
+        "email": "rachhu80@gmail.com",
+        "contact": 9538150784,
+        "photo": "20250124_161038 - Rachan Golvalkar Y.jpg",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand, Wicket Keepeer, Prefer to be a Team player and a Fielder",
+        "battingRating": 8,
+        "bowlingRating": 4,
+        "bowlingStyle": "Spinner & Pacer/Medium Pacer",
+        "fieldingRating": 9,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 89
+    },
+    {
+        "name": "Sachin Sharma",
+        "age": 33,
+        "houseName": "Balakka / Mulleria",
+        "location": "Agalpady",
+        "email": "sachinbalakka@gmail.com",
+        "contact": 9048281478,
+        "photo": "IMG_20251025_063624 - sachin sharma.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 6,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 6,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 16
+    },
+    {
+        "name": "Vachan Golvalkar Y",
+        "age": 28,
+        "houseName": "Yedamale",
+        "location": "Bengaluru",
+        "email": "vachhu80@gmail.com",
+        "contact": 8970028205,
+        "photo": "DSC_6478 - Vachan Golvalkar Y.JPG",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 70
+    },
+    {
+        "name": "Avinash Bhat K",
+        "age": 22,
+        "houseName": "Koovethota",
+        "location": "Mangaluru",
+        "email": "avinashhh1663@gmail.com",
+        "contact": 8618494421,
+        "photo": "20250629_105057 - Avinash Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 9,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 9,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 19
+    },
+    {
+        "name": "Sanketh PS",
+        "age": 35,
+        "houseName": "Padpu",
+        "location": "Mangaluru",
+        "email": "saansanketh@gmail.com",
+        "contact": 9632323242,
+        "photo": "IMG-20240304-WA0001 - Sanketh PS.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 9,
+        "bowlingRating": 7,
+        "bowlingStyle": "Spinner",
+        "fieldingRating": 9,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 72
+    },
+    {
+        "name": "Suhas. B",
+        "age": 29,
+        "houseName": "Posavalya",
+        "location": "Pune",
+        "email": "suhasbella@gmail.com",
+        "contact": 8921945084,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Icon"
+        ],
+        "referanceNumber": 124
+    },
+    {
+        "name": "Chandan",
+        "age": 37,
+        "houseName": "Kuntikana",
+        "location": "Bangalore",
+        "email": "chjonty@gmail.com",
+        "contact": 9686046866,
+        "photo": "IMG-20250617-WA0002 - chandan bk.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 13
+    },
+    {
+        "name": "Ajith Ganesh",
+        "age": 41,
+        "houseName": "Kanakkodu",
+        "location": "Agalpady",
+        "email": "ajithsganesh@gmail.com",
+        "contact": 8593064743,
+        "photo": "WhatsApp Image 2025-11-10 at 9.01.30 AM - Ajith Ganesh K.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler, Wicket Keepeer",
+        "battingRating": 7,
+        "bowlingRating": 8,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 9,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 14
+    },
+    {
+        "name": "AMRITH MB",
+        "age": 28,
+        "houseName": "MATADAMOOLE",
+        "location": "Agalpady",
+        "email": "amrithbhatgsd@gmail.com",
+        "contact": 7892466450,
+        "photo": "IMG-20251120-WA0012 - Rashmi.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 10,
+        "bowlingRating": 10,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 10,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 32
+    },
+    {
+        "name": "Vikram Lagvankar",
+        "age": 32,
+        "houseName": "Udupi",
+        "location": "Udupi",
+        "email": "vikram.lagvankar@gmail.com",
+        "contact": 9449310696,
+        "photo": "IMG_0686 - Vikram Lagvankar.jpeg",
+        "basePrice": 1000,
+        "skill": "Prefer to be a Team player and a Fielder",
+        "battingRating": 3,
+        "bowlingRating": 3,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 10,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 38
+    },
+    {
+        "name": "Vedanth Bharadwaj",
+        "age": 23,
+        "houseName": "Uppangala",
+        "location": "Mangalore",
+        "email": "vedanthbharadwaj3168@gmail.com",
+        "contact": 9164763304,
+        "photo": "IMG-20240407-WA0072 - Vedanth Bharadwaj.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Bowler Left Hand Batter",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 5,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 45
+    },
+    {
+        "name": "SHARATH VENKATESH",
+        "age": 22,
+        "houseName": "ATIKUKKE",
+        "location": "MANIPAL",
+        "email": "sharathvenkatesh6@gmail.com",
+        "contact": 9544832406,
+        "photo": "IMG_4002 - Sharath Venkatesh.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 48
+    },
+    {
+        "name": "Karthik Khadilkar",
+        "age": 35,
+        "houseName": "Khadilkar",
+        "location": "Bangaluru",
+        "email": "krkhadilkar@gmail.com",
+        "contact": 7892951441,
+        "photo": "Karthik Khadilkar 789295144120231221_231659 - KARTHIK KHADILKAR.png",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Wicket Keepeer",
+        "battingRating": 9,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 49
+    },
+    {
+        "name": "Adarsha ch",
+        "age": 26,
+        "houseName": "Cheralu",
+        "location": "Hyderabad",
+        "email": "adarshachgunda017@gmail.com",
+        "contact": 7025967126,
+        "photo": "IMG_20241206_194916 - ADARSHA CH.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 9,
+        "bowlingRating": 9,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 10,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 73
+    },
+    {
+        "name": "Bharathraj Saipangallu",
+        "age": 21,
+        "houseName": "Saipangallu",
+        "location": "Padre",
+        "email": "bharathrajsaipangallu@gmail.com",
+        "contact": 9447006750,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 6,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 6,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 86
+    },
+    {
+        "name": "Chandrashekhar",
+        "age": 41,
+        "houseName": "Munchikana",
+        "location": "BAYAR",
+        "email": "cellpoint.bayar@gmail.com",
+        "contact": 9605197255,
+        "photo": "Screenshot_20251216_103330_Gallery - chandra shekar.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Spinner & Pacer/Medium Pacer",
+        "fieldingRating": 5,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 103
+    },
+    {
+        "name": "Sreerag Padoor",
+        "age": 30,
+        "houseName": "Padoor",
+        "location": "Thrissur",
+        "email": "sreerag95@gmail.com",
+        "contact": 9400480390,
+        "photo": "IMG-20251217-WA0006 - Bhavya Shri.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 9,
+        "bowlingRating": 9,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 10,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 119
+    },
+    {
+        "name": "Sandesh V S",
+        "age": 30,
+        "houseName": "Swarga",
+        "location": "Bengaluru",
+        "email": "sandeshsanil007@gmail.com",
+        "contact": 7795375700,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler, Wicket Keepeer",
+        "battingRating": 8,
+        "bowlingRating": 9,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 10,
+        "category": [
+            "Very good"
+        ],
+        "referanceNumber": 120
+    },
+    {
+        "name": "Balamurali Kommunje",
+        "age": 45,
+        "houseName": "Kommunje",
+        "location": "Bengaluru",
+        "email": "balamurali.ca@gmail.com",
+        "contact": 9880740305,
+        "photo": "IMG_3006 - Balamurali Kommunje.jpeg",
+        "basePrice": 1000,
+        "skill": "Only Bowler - Right Hand",
+        "battingRating": 5,
+        "bowlingRating": 9,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 2
+    },
+    {
+        "name": "Siddhanth Manimoole",
+        "age": 17,
+        "houseName": "Manimoole",
+        "location": "Bengaluru",
+        "email": "siddhanthmanimoole@gmail.com",
+        "contact": 9686392690,
+        "photo": "IMG-20251110-WA0001 - Swapna Praveen.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 6
+    },
+    {
+        "name": "Suhas",
+        "age": 31,
+        "houseName": "AGALPADY",
+        "location": "AGALPADY",
+        "email": "sgulugunji@gmail.com",
+        "contact": 8075737475,
+        "photo": "IMG_9933 - Suhas Gulugunji.jpeg",
+        "basePrice": 1000,
+        "skill": "Left Hand Batsmen & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 10,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 10,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 11
+    },
+    {
+        "name": "Sudheer K M",
+        "age": 33,
+        "houseName": "Kaniyala Melanthota, Vellenje",
+        "location": "Bayar",
+        "email": "kmsudheerbhat@gmail.com",
+        "contact": 8105416105,
+        "photo": "IMG-20251110-WA0012 - Sudheer K M.jpg",
+        "basePrice": 1000,
+        "skill": "Left Hand Batsmen & Bowler, Wicket Keepeer",
+        "battingRating": 7,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 12
+    },
+    {
+        "name": "Shreenidhi CH",
+        "age": 31,
+        "houseName": "Chandukudlu",
+        "location": "Bengaluru",
+        "email": "chshrinidhi@gmail.com",
+        "contact": 9743175428,
+        "photo": "IMG-20251019-WA0019 - shrinidhi ch.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler, Wicket Keepeer",
+        "battingRating": 7,
+        "bowlingRating": 5,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 17
+    },
+    {
+        "name": "Prabhath Marathe",
+        "age": 26,
+        "houseName": "Karkala",
+        "location": "Karkala",
+        "email": "prabhathmarathe33@gmail.com",
+        "contact": 7026572321,
+        "photo": "20200118145156_IMG_5917_1 - Prabhath Marathe.JPG",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 9,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 21
+    },
+    {
+        "name": "Abhilash Majakkar",
+        "age": 34,
+        "houseName": "Majakkar",
+        "location": "Kasaragod",
+        "email": "abhimajakkar@gmail.com",
+        "contact": 6235911623,
+        "photo": "20250711_152523 - Abhilash M.heic",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 22
+    },
+    {
+        "name": "Shashidhar Bg",
+        "age": 35,
+        "houseName": "Ujire",
+        "location": "Bengaluru",
+        "email": "shashidhar.bg.1990@gmail.com",
+        "contact": 8884330646,
+        "photo": "25bbf749-dee4-496f-847d-a64ca466f96d - Shashidhar BG.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 6,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 23
+    },
+    {
+        "name": "Ranjan Pavan B",
+        "age": 30,
+        "houseName": "Balakka",
+        "location": "Puttur",
+        "email": "ranjanpavan121@gmail.com",
+        "contact": "+918951523575",
+        "photo": "IMG-20250216-WA0008 - ranjan pavan.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 26
+    },
+    {
+        "name": "Durgaprasad Iche",
+        "age": 28,
+        "houseName": "Iche / Bayar",
+        "location": "Bengaluru",
+        "email": "durgaprasadiche@gmail.com",
+        "contact": 9845289153,
+        "photo": "20251114_141300 - Abhay.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Bowler Left Hand Batsmen, Wicket Keepeer, Prefer to be a Team player and a Fielder",
+        "battingRating": 7,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 29
+    },
+    {
+        "name": "Rakesh T Sharma",
+        "age": 26,
+        "houseName": "Kollur",
+        "location": "Kollur",
+        "email": "rakeshthrivikramsharma@gmail.com",
+        "contact": 8861666770,
+        "photo": "IMG-20251120-WA0016 - Rakesh Sharma.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 31
+    },
+    {
+        "name": "Ravi Sapre",
+        "age": 35,
+        "houseName": "Sapre",
+        "location": "Bangalore",
+        "email": "ravigs1991@gmail.com",
+        "contact": 9535282990,
+        "photo": "IMG_20240128_101134_222 - ravi gs sapre.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen - Not a Bowler",
+        "battingRating": 4,
+        "bowlingRating": 3,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 5,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 35
+    },
+    {
+        "name": "Ashwin",
+        "age": 36,
+        "houseName": "Bharadwaj",
+        "location": "Bengaluru",
+        "email": "ashwinbharadwaj.pr@gmail.com",
+        "contact": 9743079577,
+        "photo": "IMG_6367 - Ashwin Bharadwaj.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 5,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 5,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 36
+    },
+    {
+        "name": "Sri Saikiran",
+        "age": 34,
+        "houseName": "Ajakkalamoole",
+        "location": "Puttur",
+        "email": "saikiranholla@gmail.com",
+        "contact": 8971141124,
+        "photo": "20240825_150057_1727503008911 - Saikiran Holla (D_Ev!L).jpg",
+        "basePrice": 1000,
+        "skill": "Only Bowler - Right Hand",
+        "battingRating": 4,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 6,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 41
+    },
+    {
+        "name": "Anoop Swarga",
+        "age": 22,
+        "houseName": "Bella",
+        "location": "Padre",
+        "email": "anoopvbhat@gmail.com",
+        "contact": 8921945956,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Wicket Keepeer",
+        "battingRating": 7,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 43
+    },
+    {
+        "name": "Anantha Bhat Kedukodi",
+        "age": 38,
+        "houseName": "Kedukodi",
+        "location": "Surathkal",
+        "email": "ca.ananthabhatk@gmail.com",
+        "contact": 7829819020,
+        "photo": "MY PIC - anantha bhat.HEIC",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 6,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 44
+    },
+    {
+        "name": "Sathya Keekana",
+        "age": 40,
+        "houseName": "Padupanambur Ramesh",
+        "location": "Somewhere in this world",
+        "email": "sathyaganapathypr@gmail.com",
+        "contact": 9980535201,
+        "photo": "PXL_20251201_051758689 - Sathya Ramesh.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 9,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 5,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 52
+    },
+    {
+        "name": "Shreejith Ghate",
+        "age": 24,
+        "houseName": "Ghate",
+        "location": "Puttur",
+        "email": "ghatejith10@gmail.com",
+        "contact": 7907540282,
+        "photo": "IMG_20240901_200423_485 - Shreejith Ghate.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Wicket Keepeer",
+        "battingRating": 6,
+        "bowlingRating": 3,
+        "bowlingStyle": "Spinner",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 53
+    },
+    {
+        "name": "Vaishnav Y",
+        "age": 21,
+        "houseName": "Yedamale/Shethodi",
+        "location": "Padre",
+        "email": "vaishnavyedamale@gmail.com",
+        "contact": 9746377224,
+        "photo": "1b85ae22-bd44-4482-9f99-69e79eb168d5_20250709_114816_0000 - Vaishnav Y.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 55
+    },
+    {
+        "name": "Adithya padre",
+        "age": 25,
+        "houseName": "Padre",
+        "location": "Karkala",
+        "email": "adithyapadre3@gmail.com",
+        "contact": 9481041500,
+        "photo": "IMG_9057 - Adithya Padre.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 5,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 56
+    },
+    {
+        "name": "SHREESHA MANIMOOLE",
+        "age": 26,
+        "houseName": "MANIMOOLE",
+        "location": "BANGALORE",
+        "email": "shreeshams05@gmail.com",
+        "contact": 8548811535,
+        "photo": "SHREESHA - Shreesha M S.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 5,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 57
+    },
+    {
+        "name": "Shreeman Ghate",
+        "age": 19,
+        "houseName": "Ghate family",
+        "location": "Puttur",
+        "email": "ghateshreeman@gmail.com",
+        "contact": 9742912896,
+        "photo": "SHREEMAN GHATE  - Shreeman Ghate",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 61
+    },
+    {
+        "name": "Avinash Ch",
+        "age": 23,
+        "houseName": "Cheral house",
+        "location": "Benglore",
+        "email": "avinashch9061@gmail.com",
+        "contact": 9061684635,
+        "photo": "IMG_20250119_211810 - avinash ch.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 63
+    },
+    {
+        "name": "SIDDHARTHA K S",
+        "age": 19,
+        "houseName": "Kedukody",
+        "location": "Bengaluru",
+        "email": "siddhartha662006@gmail.com",
+        "contact": 9380489935,
+        "photo": "IMG_20251118_204102 - Siddhartha.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 68
+    },
+    {
+        "name": "Swaroop",
+        "age": 28,
+        "houseName": "Bella",
+        "location": "Bengaluru",
+        "email": "swaroopbhatbella@gmail.com",
+        "contact": 9746983690,
+        "photo": "IMG_0578 - Swaroop V Bhat.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Prefer to be a Team player and a Fielder",
+        "battingRating": 6,
+        "bowlingRating": 6,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 74
+    },
+    {
+        "name": "Sudhir.B",
+        "age": 26,
+        "houseName": "Posavalya",
+        "location": "Padre",
+        "email": "sudhirbhat20@gmail.com",
+        "contact": 9495285347,
+        "photo": "+91 94952 85347 20251205_194815 - Sudhir Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 5,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 6,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 77
+    },
+    {
+        "name": "Ajith Kumar K",
+        "age": 32,
+        "houseName": "Kootelu",
+        "location": "Bengaluru",
+        "email": "masterajith10@gmail.com",
+        "contact": 9995084828,
+        "photo": "IMG_20250319_222208 - Ajith Kumar.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 5,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 78
+    },
+    {
+        "name": "Dileep Kumar K",
+        "age": 24,
+        "houseName": "Kuntikkana",
+        "location": "Padre",
+        "email": "dileepbharadwaj1@gmail.com",
+        "contact": 7994948509,
+        "photo": "IMG20250511102813 - Dileep Kumark.jpg",
+        "basePrice": 1000,
+        "skill": "Left Hand Bowler Right Hand Batter",
+        "battingRating": 5,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 84
+    },
+    {
+        "name": "Dileep Shiranthadka",
+        "age": 19,
+        "houseName": "Dileep",
+        "location": "Padre",
+        "email": "sd7327795@gmail.com",
+        "contact": 8590371855,
+        "photo": "SAVE_20250323_202552 - Dileep S.jpg",
+        "basePrice": 1000,
+        "skill": "Left Hand Bowler Right Hand Batter",
+        "battingRating": 7,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 85
+    },
+    {
+        "name": "Vageesha Priya K S",
+        "age": 37,
+        "houseName": "Kote",
+        "location": "Padre",
+        "email": "vageeshapriya@gmail.com",
+        "contact": 9632097006,
+        "photo": "IMG_20251207_104253 - Vageesha Priya.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 6,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 87
+    },
+    {
+        "name": "Niketh PS",
+        "age": 27,
+        "houseName": "Padpu",
+        "location": "Bengaluru",
+        "email": "nikethpadpu@gmail.com",
+        "contact": 8547226046,
+        "photo": "IMG_7890 - Niketh PS.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 6,
+        "bowlingStyle": "Spinner",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 88
+    },
+    {
+        "name": "Nihar Bhat Y M",
+        "age": 20,
+        "houseName": "Yedamale / Karkala",
+        "location": "Bengaluru",
+        "email": "bhatnihar2@gmail.com",
+        "contact": 7899306190,
+        "photo": "IMG_20251209_210729 - Nihar Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 6,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 7,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 90
+    },
+    {
+        "name": "Pranav T",
+        "age": 20,
+        "houseName": "Tadegallu",
+        "location": "Perla",
+        "email": "pranavtperla11@gmail.com",
+        "contact": 9746437233,
+        "photo": "20251204_162821 - Pranav T.heic",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 9,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 91
+    },
+    {
+        "name": "Krishnaraja",
+        "age": 33,
+        "houseName": "Sajangadde",
+        "location": "Padre",
+        "email": "krs.padre@gmail.com",
+        "contact": 8861188880,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand",
+        "battingRating": 5,
+        "bowlingRating": 3,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 96
+    },
+    {
+        "name": "Kishor Kallakalambi",
+        "age": 25,
+        "houseName": "Kallakalambi",
+        "location": "Cochin",
+        "email": "kal.kishora@gmail.com",
+        "contact": 6282333164,
+        "photo": "IMG_0211 - Kishor K.jpeg",
+        "basePrice": 1000,
+        "skill": "Left Hand Batter & Bowler",
+        "battingRating": 9,
+        "bowlingRating": 10,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 97
+    },
+    {
+        "name": "Manoj bhat",
+        "age": 39,
+        "houseName": "Barekare",
+        "location": "Mangalore",
+        "email": "manubhat0824@gmail.com",
+        "contact": 9902208777,
+        "photo": "Copy of DOC-20251215-WA0001. - Manu Bhat.pdf",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand, Wicket Keepeer",
+        "battingRating": 6,
+        "bowlingRating": 3,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 6,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 98
+    },
+    {
+        "name": "Shivaprasad B S",
+        "age": 32,
+        "houseName": "Challa, Bidara",
+        "location": "Mysore",
+        "email": "bsshiva1993@gmail.com",
+        "contact": 9980569190,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 99
+    },
+    {
+        "name": "Jayadeva K",
+        "age": 34,
+        "houseName": "Barekare",
+        "location": "Perla",
+        "email": "devukodenkila@gmail.com",
+        "contact": 7259259075,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand",
+        "battingRating": 9,
+        "bowlingRating": 2,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 106
+    },
+    {
+        "name": "Mithun VR",
+        "age": 40,
+        "houseName": "Valthaje",
+        "location": "Padre",
+        "email": "rajsajangadde@gmail.com",
+        "contact": 9037982224,
+        "photo": "IMG-20251216-WA0030 - Aarambha Realty.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Wicket Keepeer",
+        "battingRating": 7,
+        "bowlingRating": 6,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 107
+    },
+    {
+        "name": "Ravi prakash",
+        "age": 38,
+        "houseName": "Sudembala",
+        "location": "Bayar",
+        "email": "ravisudembala@gmail.com",
+        "contact": 7558053299,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand, Wicket Keepeer",
+        "battingRating": 6,
+        "bowlingRating": 1,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 6,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 109
+    },
+    {
+        "name": "Raviraj km",
+        "age": 37,
+        "houseName": "Kaniyala",
+        "location": "Bayar",
+        "email": "ravirajkm10@gmail.com",
+        "contact": 9886335636,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand, Wicket Keepeer",
+        "battingRating": 2,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 1,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 115
+    },
+    {
+        "name": "Srivatsa M G",
+        "age": 25,
+        "houseName": "Gumpe",
+        "location": "Mangaluru",
+        "email": "mgsrivatsa17@gmail.com",
+        "contact": 9482974619,
+        "photo": "17659793597363850901684898933241 - Srivatsa M G.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 5,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 5,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 116
+    },
+    {
+        "name": "Vishnu Sharma Atikukke",
+        "age": 31,
+        "houseName": "Atikukke",
+        "location": "Mangalore",
+        "email": "vishnu3292@gmail.com",
+        "contact": 8147901288,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Only Bowler - Right Hand",
+        "battingRating": 3,
+        "bowlingRating": 10,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 122
+    },
+    {
+        "name": "Sreethejas T",
+        "age": 32,
+        "houseName": "Thaire",
+        "location": "Manglore",
+        "email": "sreet40@gmail.com",
+        "contact": 8943963259,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Bowler Left Hand Batsmen",
+        "battingRating": 6,
+        "bowlingRating": 7,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Good"
+        ],
+        "referanceNumber": 123
+    },
+    {
+        "name": "Prajwal Karmarkar.G.",
+        "age": 25,
+        "houseName": "Neerchal, Kasaragod",
+        "location": "Goa",
+        "email": "prajwalkarmarkar@gmail.com",
+        "contact": 8129068064,
+        "photo": "IMG_20220524_144918 - Prajwal Karmarkar.G..jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler, Wicket Keepeer, Prefer to be a Team player and a Fielder",
+        "battingRating": 7,
+        "bowlingRating": 5,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 3
+    },
+    {
+        "name": "Madhukiran",
+        "age": 30,
+        "houseName": "Adkar",
+        "location": "Bengaluru",
+        "email": "madhukiranadkar@gmail.com",
+        "contact": 7676292360,
+        "photo": "IMG_20251109_022241 - Madhukiran Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen - Not a Bowler",
+        "battingRating": 7,
+        "bowlingRating": 1,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 4
+    },
+    {
+        "name": "U Rohan Sharma",
+        "age": 27,
+        "houseName": "Uppangala",
+        "location": "Bangalore",
+        "email": "rohanuppangala@gmail.com",
+        "contact": 9741078072,
+        "photo": "IMG-20250929-WA0166 - ROHAN SHARMA.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen - Not a Bowler",
+        "battingRating": 5,
+        "bowlingRating": 1,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 7
+    },
+    {
+        "name": "Keshavachandra Thejaswi",
+        "age": 40,
+        "houseName": "Tellar",
+        "location": "Tellar, karkala",
+        "email": "kcthejaswiys@gmail.com",
+        "contact": 8722250744,
+        "photo": "IMG_2477 - keshav thejaswi.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 6,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 8
+    },
+    {
+        "name": "Pradyumna",
+        "age": 33,
+        "houseName": "Koovekkallu",
+        "location": "Mumbai",
+        "email": "pradyu.meteo@gmail.com",
+        "contact": 7861806473,
+        "photo": "20241014_114128 - pradyumna k.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen - Not a Bowler, Wicket Keepeer",
+        "battingRating": 9,
+        "bowlingRating": 2,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 10,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 10
+    },
+    {
+        "name": "Sudarshan Patwardhan",
+        "age": 29,
+        "houseName": "Belthangady",
+        "location": "Bengaluru",
+        "email": "sudarshanpatwardhan@gmail.com",
+        "contact": 9731172427,
+        "photo": "IMG_7887 2 - sudarshan patwardhan.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 8,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 15
+    },
+    {
+        "name": "SHRIKANTH",
+        "age": 29,
+        "houseName": "Posvalya",
+        "location": "Padre",
+        "email": "shrikantbhat050@gmail.com",
+        "contact": 8590144731,
+        "photo": "FB_IMG_1762835952682_1 - Shrikant Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 1,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 18
+    },
+    {
+        "name": "Arpith Iche",
+        "age": 25,
+        "houseName": "Puttur",
+        "location": "Banglore",
+        "email": "arpithmoto@gmail.com",
+        "contact": 9741019290,
+        "photo": "IMG_3859 - Arpith Moto.jpeg",
+        "basePrice": 1000,
+        "skill": "Left Hand Bowler Right Hand Batsmen",
+        "battingRating": 7,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 20
+    },
+    {
+        "name": "Ramakrishna",
+        "age": 44,
+        "houseName": "Kasaragod",
+        "location": "Agalpady",
+        "email": "mrkb1980@gmail.com",
+        "contact": 9645191836,
+        "photo": "IMG_20240825_173057 - Ramakrishna Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 6,
+        "bowlingStyle": "I can Spin & Bowl Pace/Medium Pace",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 24
+    },
+    {
+        "name": "Vaishak",
+        "age": 22,
+        "houseName": "Perla",
+        "location": "Banglore",
+        "email": "vaishakmadhav3@gmail.com",
+        "contact": 6282875268,
+        "photo": "IMG_20241214_070055401_HDR - vaishak s.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 6,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 25
+    },
+    {
+        "name": "Harshith Bhat K",
+        "age": 27,
+        "houseName": "Kannadaguli",
+        "location": "Bengaluru",
+        "email": "harshithbk7@gmail.com",
+        "contact": 7259272210,
+        "photo": "DSC03463 - Harshith Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen - Not a Bowler",
+        "battingRating": 7,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 27
+    },
+    {
+        "name": "Krishna Mohana S",
+        "age": 41,
+        "houseName": "Kote",
+        "location": "Padre",
+        "email": "kotemohana@gmail.com",
+        "contact": 9645116307,
+        "photo": "17635466330343498792829180890512 - Mohan Kote.jpg",
+        "basePrice": 1000,
+        "skill": "Wicket Keepeer",
+        "battingRating": 4,
+        "bowlingRating": 3,
+        "bowlingStyle": "Spinner",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 28
+    },
+    {
+        "name": "Dheeraj",
+        "age": 38,
+        "houseName": "Padre",
+        "location": "Padre",
+        "email": "dheerajputhra99@gmail.com",
+        "contact": 8281125037,
+        "photo": "17635595680363773451522440764076 - dheeraj puthra.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen - Not a Bowler",
+        "battingRating": 4,
+        "bowlingRating": 3,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 5,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 30
+    },
+    {
+        "name": "Mayura Pelthaje",
+        "age": 24,
+        "houseName": "Pelthaje",
+        "location": "Bengaluru",
+        "email": "mayurap1002@gmail.com",
+        "contact": 7559017042,
+        "photo": "IMG_20250513_220257_929 - Mayura P.webp",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 10,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 33
+    },
+    {
+        "name": "Mahesh Rao",
+        "age": 31,
+        "houseName": "Udupi",
+        "location": "Bengaluru",
+        "email": "raomahesh245@gmail.com",
+        "contact": 7829338130,
+        "photo": "1000109160 - Mahesh Rao.jpg",
+        "basePrice": 1000,
+        "skill": "Prefer to be a Team player and a Fielder",
+        "battingRating": 4,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 6,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 34
+    },
+    {
+        "name": "Athul bhat",
+        "age": 24,
+        "houseName": "Pavanaskar/ karpe",
+        "location": "Bengaluru/ Mangalore",
+        "email": "athulbhat6108@gmail.com",
+        "contact": 8660153844,
+        "photo": "PSX_20250711_030614~2 - Athul Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen - Not a Bowler",
+        "battingRating": 7,
+        "bowlingRating": 4,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 37
+    },
+    {
+        "name": "Chittaranjan K",
+        "age": 18,
+        "houseName": "Kadandelu",
+        "location": "Badiadka",
+        "email": "chittukadandelu2007@gmail.com",
+        "contact": 8792013214,
+        "photo": "1755846642875963591044463894139 - Chittaranjan Kadandelu.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 40
+    },
+    {
+        "name": "Koushik Ghate",
+        "age": 26,
+        "houseName": "Ghate",
+        "location": "Bengaluru",
+        "email": "ghatekaushikghate@gmail.com",
+        "contact": 8150089690,
+        "photo": "IMG_20251107_152950520 - Koushik Ghate.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 5,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 42
+    },
+    {
+        "name": "Abhishek R Pandith",
+        "age": 22,
+        "houseName": "Jaile",
+        "location": "Karkala",
+        "email": "abhishekrpandith@gmail.com",
+        "contact": 8296895438,
+        "photo": "IMG_2361_Original - Abhishek R Pandith.jpeg",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand",
+        "battingRating": 8,
+        "bowlingRating": 6,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 46
+    },
+    {
+        "name": "Aaditya Bharadwaj",
+        "age": 26,
+        "houseName": "Uppangala",
+        "location": "Bengaluru",
+        "email": "aaditya211@gmail.com",
+        "contact": 9663434340,
+        "photo": "IMG-20251103-WA1624 - Aaditya Bharadwaj.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 5,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 5,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 50
+    },
+    {
+        "name": "Akash Sajangadde",
+        "age": 38,
+        "houseName": "Sajangadde",
+        "location": "Bengaluru",
+        "email": "akash.sajangadde@gmail.com",
+        "contact": 9743705004,
+        "photo": "IMG_3098 - Akash Sajangadde.jpeg",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand, Prefer to be a Team player and a Fielder",
+        "battingRating": 7,
+        "bowlingRating": 3,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 51
+    },
+    {
+        "name": "Milind Kotibhaskar",
+        "age": 39,
+        "houseName": "Kotibhaskar",
+        "location": "Bangalore",
+        "email": "milindf1@gmail.com",
+        "contact": 9900333655,
+        "photo": "IMG_8573 Copy - Dhruvi Kotibhaskar.jpeg",
+        "basePrice": 1000,
+        "skill": "Prefer to be a Team player and a Fielder",
+        "battingRating": 1,
+        "bowlingRating": 1,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 1,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 54
+    },
+    {
+        "name": "AshrithY",
+        "age": 20,
+        "houseName": "Yedamale",
+        "location": "Padre",
+        "email": "ashrithyedamale@gmail.com",
+        "contact": 9778734963,
+        "photo": "20250719_124150 - Ashrith Yedamale.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Only Bowler - Right Hand",
+        "battingRating": 5,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 60
+    },
+    {
+        "name": "Aditya Ghate",
+        "age": 44,
+        "houseName": "Darbhe Ghate",
+        "location": "Nidpally",
+        "email": "darbheaditya@gmail.com",
+        "contact": 9945704979,
+        "photo": "Aditya Ghate - Aditya Ghate.jpeg",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand, Prefer to be a Team player and a Fielder",
+        "battingRating": 7,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 62
+    },
+    {
+        "name": "Jayagovinda K",
+        "age": 35,
+        "houseName": "Kannadaguli",
+        "location": "Mangaluru",
+        "email": "jay.govind1990@gmail.com",
+        "contact": 9483904674,
+        "photo": "photo - 220kv Bajpe RS KPTCL.jpg",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand, Wicket Keepeer",
+        "battingRating": 6,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 64
+    },
+    {
+        "name": "Pradeep Kudingila",
+        "age": 33,
+        "houseName": "Kudingila / karkala",
+        "location": "Karkala",
+        "email": "pradeepkarkala60@gmail.com",
+        "contact": 9591081388,
+        "photo": "IMG_20250227_144133 - Pradeep K.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 65
+    },
+    {
+        "name": "Prahlada Marathe",
+        "age": 27,
+        "houseName": "Marathe",
+        "location": "Karkala",
+        "email": "dprahladmarathe23@gmail.com",
+        "contact": 9731818051,
+        "photo": "IMG_20221127_200825 - Prahlad Marathe.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Prefer to be a Team player and a Fielder",
+        "battingRating": 7,
+        "bowlingRating": 10,
+        "bowlingStyle": "Spinner",
+        "fieldingRating": 10,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 66
+    },
+    {
+        "name": "Girish G S",
+        "age": 42,
+        "houseName": "Gumpe",
+        "location": "Bangalore",
+        "email": "gs.girishbhat@gmail.com",
+        "contact": 9964319885,
+        "photo": "WhatsApp Image 2025-12-03 at 6.23.08 PM - Girish GS.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 5,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 6,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 69
+    },
+    {
+        "name": "Ravishankara Iche",
+        "age": 22,
+        "houseName": "Iche",
+        "location": "Bengaluru",
+        "email": "ibhatravishankara@gmail.com",
+        "contact": 9353008608,
+        "photo": "IMG-20250202-WA0034 - Ravi Shankara I.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 71
+    },
+    {
+        "name": "M Lakshminarayana bhat",
+        "age": 20,
+        "houseName": "Maroli",
+        "location": "Kadaba",
+        "email": "lakshminarayanabhatm@gmail.com",
+        "contact": 8971079878,
+        "photo": "IMG-20250531-WA0020(1) - Lakshminarayana bhatm.jpg",
+        "basePrice": 1000,
+        "skill": "Only Bowler - Right Hand",
+        "battingRating": 4,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 75
+    },
+    {
+        "name": "Harshavardhan.P",
+        "age": 38,
+        "houseName": "Marathe",
+        "location": "Bengaluru",
+        "email": "pharshavardhan86@gmail.com",
+        "contact": 9036479301,
+        "photo": "20220903_144626 - Harshavardhan P.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 9,
+        "bowlingRating": 9,
+        "bowlingStyle": "Spinner & Pacer/Medium Pacer",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 76
+    },
+    {
+        "name": "Ashuthosh R Pandith",
+        "age": 25,
+        "houseName": "Irandodi - Jayle",
+        "location": "Mangaluru",
+        "email": "arpandith21@gmail.com",
+        "contact": 7337619544,
+        "photo": "DSC_4110mmm - Ashuthosh R Pandith.jpg",
+        "basePrice": 1000,
+        "skill": "Only Bowler - Right Hand",
+        "battingRating": 6,
+        "bowlingRating": 9,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 79
+    },
+    {
+        "name": "Dhyan Bhat",
+        "age": 13,
+        "houseName": "Kannadaguli",
+        "location": "Bengaluru",
+        "email": "venuk1000@gmail.com",
+        "contact": 9833874665,
+        "photo": "IMG_0111 - Venugopal Kannadaguli.jpeg",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand",
+        "battingRating": 7,
+        "bowlingRating": 1,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 4,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 80
+    },
+    {
+        "name": "Pradeep Krishna I",
+        "age": 20,
+        "houseName": "Icche",
+        "location": "Bengaluru",
+        "email": "pradeepkrish2410@gmail.com",
+        "contact": 8217428796,
+        "photo": "IMG_20251207_144804 - Pradeep krishna.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Bowler Left Hand Batter",
+        "battingRating": 5,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 81
+    },
+    {
+        "name": "Nikhil Bhat",
+        "age": 27,
+        "houseName": "Atikukke",
+        "location": "Bengaluru",
+        "email": "nikhilbbhat1398@gmail.com",
+        "contact": 7026090690,
+        "photo": "20251130_133232 - Nikhil Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 4,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 82
+    },
+    {
+        "name": "Preetham N",
+        "age": 31,
+        "houseName": "Nuliyalu",
+        "location": "Bangalore",
+        "email": "npreetham.93@gmail.com",
+        "contact": 8861389312,
+        "photo": "IMG_20251207_182510 - preetham N.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 83
+    },
+    {
+        "name": "Vishnu Prasad G",
+        "age": 21,
+        "houseName": "Gumpe",
+        "location": "Bengaluru",
+        "email": "bhatvishnuprasadg@gmail.com",
+        "contact": 7899207400,
+        "photo": "IMG-20250202-WA0009 - Vishnu Prasad.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 6,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 92
+    },
+    {
+        "name": "Sandesh  saipangallu",
+        "age": 22,
+        "houseName": "Saipangallu",
+        "location": "Perla",
+        "email": "Sandeshsaipangallu09836@gmail.com",
+        "contact": 9745715762,
+        "photo": "Screenshot_20251213_123630_Instagram - Sandesh Saipangallu.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 93
+    },
+    {
+        "name": "Shreekanth Sajangadde",
+        "age": 38,
+        "houseName": "Sajangadde",
+        "location": "Bengaluru",
+        "email": "shreekans@gmail.com",
+        "contact": 9483030404,
+        "photo": "IMG_9351 - Shreekanth Sajangadde.jpeg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler, Wicket Keepeer, Prefer to be a Team player and a Fielder",
+        "battingRating": 5,
+        "bowlingRating": 5,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 94
+    },
+    {
+        "name": "Sourabh Bhat S",
+        "age": 26,
+        "houseName": "Bolluridu",
+        "location": "Bangalore",
+        "email": "sourabhbhat22@gmail.com",
+        "contact": 9633447453,
+        "photo": "+91 96334 47453 20241208_152933 - Sourabh Bhat.jpg",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand",
+        "battingRating": 8,
+        "bowlingRating": 1,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 10,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 95
+    },
+    {
+        "name": "Niranjan Gokhale",
+        "age": 23,
+        "houseName": "Gokhale",
+        "location": "Puttur",
+        "email": "niranjangokhale10@gmail.com",
+        "contact": 9740949174,
+        "photo": "Screenshot_20251215-133448 - Niranjan Gokhale.png",
+        "basePrice": 1000,
+        "skill": "Left Hand Bowler Right Hand Batter",
+        "battingRating": 5,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 6,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 100
+    },
+    {
+        "name": "Ajith Thadegallu",
+        "age": 30,
+        "houseName": "Thadegallu",
+        "location": "Padre",
+        "email": "ajith.at176@gmail.com",
+        "contact": 8547567315,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Prefer to be a Team player and a Fielder",
+        "battingRating": 5,
+        "bowlingRating": 1,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 5,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 101
+    },
+    {
+        "name": "Vishwas G S",
+        "age": 19,
+        "houseName": "Gulugunji",
+        "location": "Bengaluru",
+        "email": "vishwasbhat727@gmail.com",
+        "contact": 9074770435,
+        "photo": "20251109_122526 - Vishwas G.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 6,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 102
+    },
+    {
+        "name": "Ajinkya A",
+        "age": 14,
+        "houseName": "Ajakkalamoole",
+        "location": "Bangalore",
+        "email": "raviraj80@gmail.com",
+        "contact": 9448865642,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 6,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 104
+    },
+    {
+        "name": "SHREESHA S R",
+        "age": 45,
+        "houseName": "KOTE",
+        "location": "KARKALA",
+        "email": "koteshreesha@gmail.com",
+        "contact": 9986795950,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 9,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 105
+    },
+    {
+        "name": "Aravinda Bhat",
+        "age": 35,
+        "houseName": "Thadegallu",
+        "location": "Bengaluru",
+        "email": "arwin108@gmail.com",
+        "contact": 9108489637,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 6,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 108
+    },
+    {
+        "name": "Abhijith M B",
+        "age": 34,
+        "houseName": "Matadamoole",
+        "location": "Bengaluru",
+        "email": "abhijithbhat84@gmail.com",
+        "contact": 7306074813,
+        "photo": "IMG_0599 - Abhijith Mb.jpeg",
+        "basePrice": 1000,
+        "skill": "Only Batter - Right Hand, Wicket Keepeer",
+        "battingRating": 10,
+        "bowlingRating": 1,
+        "bowlingStyle": "Not a Bowler",
+        "fieldingRating": 10,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 110
+    },
+    {
+        "name": "Chandrahasa T",
+        "age": 30,
+        "houseName": "Thaleka",
+        "location": "Agalpady",
+        "email": "chandu.t50@gmail.com",
+        "contact": 9663868300,
+        "photo": "20230224_100203 - chandu t.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Bowler Left Hand Batter",
+        "battingRating": 7,
+        "bowlingRating": 6,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 111
+    },
+    {
+        "name": "Swastik Ghate",
+        "age": 31,
+        "houseName": "Darbe",
+        "location": "Bengaluru",
+        "email": "swastikghate@gmail.com",
+        "contact": 8884031066,
+        "photo": "IMG-20240701-WA0002 - Swastik Ghate.jpg",
+        "basePrice": 1000,
+        "skill": "Only Bowler - Right Hand",
+        "battingRating": 5,
+        "bowlingRating": 7,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 112
+    },
+    {
+        "name": "Shravan Sharma",
+        "age": 24,
+        "houseName": "Uppangala",
+        "location": "Karkala",
+        "email": "shravanbalaje@gmail.com",
+        "contact": 6362939171,
+        "photo": "20231015_203309 - Shravan Sharma.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 4,
+        "bowlingRating": 6,
+        "bowlingStyle": "Medium Pacer",
+        "fieldingRating": 7,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 113
+    },
+    {
+        "name": "Advaith Sharma",
+        "age": 21,
+        "houseName": "Uppangala",
+        "location": "Karkala",
+        "email": "sharmaadvaith7@gmail.com",
+        "contact": 9353370493,
+        "photo": "DSC_8595 - Advaith Sharma.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 7,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 8,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 114
+    },
+    {
+        "name": "Avinash Bharadwaj M",
+        "age": 28,
+        "houseName": "MATADAMOOLE",
+        "location": "Bengaluru",
+        "email": "avinashmovvar@gmail.com",
+        "contact": 9605144616,
+        "photo": "IMG_20251109_172514983 (1) - Avinash.jpg",
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 7,
+        "bowlingRating": 9,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 117
+    },
+    {
+        "name": "Anoop Bhat",
+        "age": 38,
+        "houseName": "Padoor",
+        "location": "Hubli",
+        "email": "anoopbht15@gmail.com",
+        "contact": 9538288995,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batter & Bowler",
+        "battingRating": 8,
+        "bowlingRating": 8,
+        "bowlingStyle": "Fast Bowler",
+        "fieldingRating": 9,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 118
+    },
+    {
+        "name": "Shyam Prasad",
+        "age": 45,
+        "houseName": "Kollenkana",
+        "location": "Mangalore",
+        "email": "shyamkprasad@gmail.com",
+        "contact": 9686603111,
+        "photo": null,
+        "basePrice": 1000,
+        "skill": "Right Hand Batsmen & Bowler",
+        "battingRating": 5,
+        "bowlingRating": 8,
+        "bowlingStyle": "Medium Pace",
+        "fieldingRating": 6,
+        "category": [
+            "Average"
+        ],
+        "referanceNumber": 121
+    }
+]

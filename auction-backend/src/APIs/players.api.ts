@@ -1,8 +1,8 @@
 import { Hono } from "hono";
 import { Players, type IPlayer } from "../database/playerSchema.js";
 import { customLogger } from "../custom_logger.js";
-import { read, utils } from "xlsx";
 import { readdirSync, readFileSync } from "fs";
+import { loadPlayerToDatabase } from "../util/excelToJson.js";
 
 const playersApis = new Hono();
 
@@ -114,45 +114,6 @@ playersApis.delete("/", async (c) => {
   }
 });
 
-playersApis.post("/bulkAdd", async (c) => {
-  const body = await c.req.parseBody();
-  const file = body["excelFile"];
-  // console.log(file)
-  if (file instanceof File) {
-    const buffer = Buffer.from(await file.arrayBuffer());
-    try {
-      const workbook = read(buffer, { type: "buffer" });
-      const sheetName = workbook.SheetNames[0];
-      const sheet = workbook.Sheets[sheetName];
-      const jsonData = utils.sheet_to_json(sheet);
-
-      var files = readdirSync("asset/playerPic/");
-
-      jsonData.forEach((data) => {
-        let player = new Players(data);
-        if (player.category[0] != "General") {
-          player.category = player.category.concat("General");
-        }
-        var playerName = player.name.toLowerCase().replaceAll(" ","")
-        files.forEach((fileName)=>{
-          
-          if(fileName.toLowerCase().replaceAll(" ","").includes(playerName)){
-            player.photo = fileName
-          }
-        })
-        player.save();
-      });
-      return c.json({
-        result: "success",
-      });
-    } catch (error) {
-      console.log(error);
-      return c.text("Error reading Excel file", 500);
-    }
-  }
-  return c.text("Error while reading excel", 500);
-});
-
 playersApis.get("/image/:pathToImage", async (c)=>{
   let pathToImage = c.req.param("pathToImage"); 
   const imageBuffer = readFileSync(`asset/playerPic/${pathToImage}`);
@@ -168,5 +129,11 @@ playersApis.patch("/updatePic", async (c) => {
     result: "success",
   });
 });
+
+playersApis.get("/addAllPlayers/", async (c)=>{
+  customLogger(`Here`);
+  
+  return c.json(await loadPlayerToDatabase(Players))
+})
 
 export default playersApis;
