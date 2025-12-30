@@ -2,10 +2,16 @@ import { useState } from "react";
 import { axiosPost } from "../../services/apiServices";
 import Modal from "../Modal/Modal";
 import { Notyf } from "notyf";
+import { useSocket } from "../../hooks/useSocket";
 
-const AuctionActionPanel = ({ player, teamList, fetchRandomPlayer }) => {
+const AuctionActionPanel = ({
+  player,
+  teamList,
+  fetchRandomPlayer,
+  hammerPrice,
+  setHammerPrice,
+}) => {
   const [soldToTeam, setSoldToTeam] = useState("");
-  const [hammerPrice, setHammerPrice] = useState("");
   const [confirmBidDialog, setConfirmBidDialog] = useState(false);
   const notyf = new Notyf({
     duration: 1000,
@@ -30,11 +36,12 @@ const AuctionActionPanel = ({ player, teamList, fetchRandomPlayer }) => {
   });
   const isInputValidated = player && soldToTeam && hammerPrice;
 
+  const { socket } = useSocket();
+
   const handleUnsold = async (id) => {
     await axiosPost(`auction/markUnsold/${id}`)
       .then((res) => {
         notyf.success(`${player.name} is unsold`);
-        fetchRandomPlayer();
       })
       .catch((e) => {
         console.log("something went wrong", e);
@@ -50,13 +57,25 @@ const AuctionActionPanel = ({ player, teamList, fetchRandomPlayer }) => {
       .then((res) => {
         setSoldToTeam("");
         setConfirmBidDialog(false);
-        setHammerPrice("");
+        setHammerPrice(0);
         notyf.success(`${player.name} is sold to ${soldToTeam.name}`);
-        fetchRandomPlayer();
       })
       .catch((e) => {
         console.log("something went wrong", e);
       });
+  };
+
+  const updateBid = () => {
+    let currentPrice = Number(hammerPrice);
+    if (currentPrice < 2500) {
+      currentPrice += 250;
+    } else if (currentPrice > 2500 && currentPrice < 10000) {
+      currentPrice += 500;
+    } else {
+      currentPrice += 1000;
+    }
+    setHammerPrice(currentPrice);
+    socket.emit("bidPlayer", currentPrice, "test team");
   };
 
   return (
@@ -84,11 +103,17 @@ const AuctionActionPanel = ({ player, teamList, fetchRandomPlayer }) => {
           type="number"
           placeholder="Hammer Price"
           value={hammerPrice}
-          onChange={(e) => setHammerPrice(e.target.value)}
+          onChange={(e) => setHammerPrice(Number(e.target.value))}
           className={
             " border-b-1 border-[#E0E0E0] p-2 w-40 h-6 focus:outline-none"
           }
         />
+        <button
+          className="bg-orange-200 text-orange-600 rounded-md text-sm w-32 h-6 active:scale-95 transition-all"
+          onClick={updateBid}
+        >
+          Bid
+        </button>
         <button
           className="bg-[#CCFFCC] text-green-700 rounded-md text-sm w-32 h-6 active:scale-95 transition-all"
           onClick={() =>
@@ -106,7 +131,7 @@ const AuctionActionPanel = ({ player, teamList, fetchRandomPlayer }) => {
         className="bg-blue-100 text-blue-400 rounded-md text-sm w-32 h-6 active:scale-95 transition-all"
         onClick={fetchRandomPlayer}
       >
-        Next Player
+        Get Player
       </button>
       {confirmBidDialog && (
         <Modal onClose={() => setConfirmBidDialog(false)}>

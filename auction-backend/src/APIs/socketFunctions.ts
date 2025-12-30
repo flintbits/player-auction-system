@@ -5,7 +5,7 @@ import type { ClientToServerEvents, ServerToClientEvents } from "./socket.js";
 
 let currentPlayer:IPlayer | undefined = undefined
 let bidPrice:number = 0
-let teams:ITeams | undefined = undefined
+let teams:String | undefined = undefined
 
 function registerEvents(
     io: Server<ClientToServerEvents, ServerToClientEvents>,
@@ -16,7 +16,7 @@ function registerEvents(
         socket.broadcast.emit("updatePlayer", player);
     }
 
-    function bidPlayer(price: number, team: ITeams) {
+    function bidPlayer(price: number, team: String) {
         bidPrice = price
         teams = team
         socket.broadcast.emit("updateBid", price, team);
@@ -27,7 +27,9 @@ function registerEvents(
     }
 
     function onConnection(){
-        socket.emit("onConnection", currentPlayer, bidPrice, teams)
+        // socket.emit("onConnection", currentPlayer, bidPrice, teams)
+        socket.emit("updatePlayer",currentPlayer)
+        socket.emit("updateBid", bidPrice, teams)
     }
 
     socket.on("nextPlayer", nextPlayer);
