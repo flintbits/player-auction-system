@@ -1,13 +1,16 @@
 const AuctionPlayerDetails = ({ player }) => {
   const playerData = [
     { label: "Referance number", value: player.referanceNumber },
-    { label: "Name", value: player.name.toUpperCase() },
+    // { label: "Name", value: player.name.toUpperCase() },
     { label: "Age", value: player.age },
     { label: "Location", value: player.location },
-    { label: "Dominent Hand", value: player.hand },
-    { label: "Expertice", value: player.expertice },
+    { label: "Batting Rating", value: player.battingRating },
+    { label: "Bowling Rating", value: player.bowlingRating },
+    { label: "Bowling Style", value: player.bowlingStyle },
+    { label: "Fielding Rating", value: player.fieldingRating },
     { label: "Base Price", value: player.basePrice },
   ];
+
   return (
     <section className=" mt-2 p-4 px-8 rounded-md ">
       <section className="flex gap-16 items-start mt-2">
@@ -19,9 +22,9 @@ const AuctionPlayerDetails = ({ player }) => {
             className="w-full h-full object-cover object-center"
           />
         </section>
-        <section className="flex gap-10 text-[20px] flex-col">
+        <section className="flex gap-6 text-[20px] flex-col">
           {playerData.map((data, index) => (
-            <section key={index} className="flex gap-1 items-center">
+            <section key={index} className="flex gap-1 items-center ">
               <p className="w-50 font-bold ">{data.label}</p>
               <p>{data.value}</p>
             </section>

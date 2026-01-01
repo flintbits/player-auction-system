@@ -6,8 +6,10 @@ const PlayerCard = ({ name, gender, bid, category }) => {
         <p className="w-1/3">{gender}</p>
         <p className="w-1/3">{bid}</p>
         <span className="w-1/3 flex flex-wrap gap-2">
-          {category.map((cat) => (
-            <p className="text-[12px] bg-amber-100 rounded-md p-1">{cat}</p>
+          {category.map((cat, index) => (
+            <p key={index} className="text-[12px] bg-amber-100 rounded-md p-1">
+              {cat}
+            </p>
           ))}
         </span>
       </section>

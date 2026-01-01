@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 const Modal = ({ children, onClose, width = "max-w-sm" }) => {
   return ReactDOM.createPortal(
     <div
-      className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+      className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 px-3 sm:px-6"
       onClick={onClose}
     >
       <div

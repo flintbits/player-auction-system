@@ -26,6 +26,9 @@ export default function Layout() {
           <Link to="/auction" className={linkClass("/auction")}>
             Auction
           </Link>
+          <Link to="/teams" className={linkClass("/teams")}>
+            Teams
+          </Link>
         </div>
       </nav>
       <Outlet />

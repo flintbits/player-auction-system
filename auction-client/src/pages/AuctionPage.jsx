@@ -5,6 +5,7 @@ import { axiosGet } from "../services/apiServices";
 
 const AuctionPage = () => {
   const [teamList, setTeamList] = useState([]);
+  const [randomPlayer, setRandomPlayer] = useState([]);
 
   const fetchTeams = async () => {
     try {
@@ -24,11 +25,20 @@ const AuctionPage = () => {
   return (
     <section className="flex w-full text-gray-700 px-12">
       <section className="w-[75%]">
-        <PlayersSection teamList={teamList} fetchTeams={fetchTeams} />
+        <PlayersSection
+          teamList={teamList}
+          fetchTeams={fetchTeams}
+          randomPlayer={randomPlayer}
+          setRandomPlayer={setRandomPlayer}
+        />
       </section>
 
       <section className="w-[25%] h-screen overflow-scroll hide-scrollbar">
-        <TeamsSection teamList={teamList} />
+        <TeamsSection
+          teamList={teamList}
+          randomPlayer={randomPlayer}
+          setRandomPlayer={setRandomPlayer}
+        />
       </section>
     </section>
   );

@@ -94,38 +94,55 @@ const TeamsSection = ({ teamList }) => {
         <Modal
           onClose={() => {
             setShowTeamDetails(false);
-            selectedTeam({});
           }}
-          width="max-w-4xl"
+          width="w-full sm:max-w-xl md:max-w-4xl"
         >
-          <section className="flex justify-center flex-col gap-2">
-            <h1 className="font-semibold text-2xl text-gray-700">
+          <section className="flex flex-col gap-3 sm:gap-4">
+            {/* Team name */}
+            <h1 className="font-semibold text-lg sm:text-xl md:text-2xl text-gray-700 text-center sm:text-left">
               {selectedTeam.name}
             </h1>
-            <section className="flex justify-between bg-gray-100 p-2 rounded-md w-full">
-              <p className="w-1/2">Purse Value : {selectedTeam.purseValue}</p>
-              <p className="w-1/2">Players : {selectedTeam.players.length}</p>
+
+            {/* Team stats */}
+            <section className="flex flex-col sm:flex-row bg-gray-100 p-3 rounded-md text-sm sm:text-base gap-2 sm:gap-0">
+              <p className="sm:w-1/2">
+                <span className="font-medium">Purse Value:</span>{" "}
+                {selectedTeam.purseValue}
+              </p>
+              <p className="sm:w-1/2">
+                <span className="font-medium">Players:</span>{" "}
+                {selectedTeam.players.length}
+              </p>
             </section>
-            <section className="border-1 border-gray-200 "></section>
+
+            <section className="border border-gray-200" />
+
             {selectedTeam.players.length === 0 ? (
-              <p>No Players Found</p>
+              <p className="text-sm sm:text-base text-gray-500 text-center">
+                No Players Found
+              </p>
             ) : (
               <>
-                <p>Players under this team</p>
-                <section className="flex flex-wrap justify-center gap-1 max-h-60 overflow-auto">
-                  <section className="flex justify-between bg-gray-100 p-2 rounded-md w-full">
-                    <p className="w-1/3">Name</p>
-                    <p className="w-1/3">Gender</p>
-                    <p className="w-1/3">Bid Price</p>
-                    <p className="w-1/3">Category</p>
+                <p className="text-sm sm:text-base font-medium text-gray-600">
+                  Players under this team
+                </p>
+
+                <section className="flex flex-col gap-2 max-h-60 sm:max-h-80 overflow-auto">
+                  {/* Table header */}
+                  <section className="hidden sm:flex justify-between bg-gray-100 p-2 rounded-md text-sm font-medium">
+                    <p className="w-1/4">Name</p>
+                    <p className="w-1/4">Gender</p>
+                    <p className="w-1/4">Bid Price</p>
+                    <p className="w-1/4">Category</p>
                   </section>
+
+                  {/* Players */}
                   {selectedTeam.players.map((player, index) => (
                     <PlayerCard
+                      key={index}
                       name={player.name}
-                      // gender={player.gender}
                       bid={player.price}
                       category={player.category}
-                      key={index}
                     />
                   ))}
                 </section>
@@ -135,7 +152,10 @@ const TeamsSection = ({ teamList }) => {
         </Modal>
       )}
       {showUnsold && (
-        <Modal onClose={() => setShowUnsold(false)} width="max-w-4xl">
+        <Modal
+          onClose={() => setShowUnsold(false)}
+          width="w-[95vw] sm:w-[90vw] md:max-w-4xl"
+        >
           <NotSold />
         </Modal>
       )}

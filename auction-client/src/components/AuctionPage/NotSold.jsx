@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { axiosGet } from "../../services/apiServices";
 import { MdOutlineClose } from "react-icons/md";
 
-const NotSold = () => {
+const NotSold = ({ setRandomPlayer }) => {
   const [list, setList] = useState([]);
   const [filterString, setFilterString] = useState("");
   const [loading, setLoading] = useState(false);
@@ -68,14 +68,21 @@ const NotSold = () => {
             {filteredList.map((item) => (
               <section
                 key={item._id}
-                className="flex justify-between items-center border-b-1 bg-white p-2 border-gray-200 w-full"
+                className="flex justify-between items-center border-b-1 bg-white p-2 border-gray-200 w-full hover:cursor-pointer"
+                onClick={() => {
+                  console.log(item);
+                  setRandomPlayer(item);
+                }}
               >
                 <p className="w-1/3">{item.name}</p>
                 <p className="w-1/3">{item.age}</p>
                 <p className="w-1/3">₹{item.basePrice}</p>
                 <span className="w-1/3 flex flex-wrap gap-2">
-                  {item.category.map((cat) => (
-                    <p className="text-[12px] bg-amber-100 rounded p-1">
+                  {item.category.map((cat, item) => (
+                    <p
+                      key={item}
+                      className="text-[12px] bg-amber-100 rounded p-1"
+                    >
                       {cat}
                     </p>
                   ))}

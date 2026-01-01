@@ -1,6 +1,4 @@
 const AuctionPlayerDetails = ({ player }) => {
-  console.log("player", player);
-
   if (!player)
     return (
       <section className="flex flex-col items-center gap-3 text-gray-500">
@@ -13,8 +11,10 @@ const AuctionPlayerDetails = ({ player }) => {
     { label: "Name", value: player.name.toUpperCase() },
     { label: "Age", value: player.age },
     { label: "Location", value: player.location },
-    { label: "Dominent Hand", value: player.hand },
-    { label: "Expertice", value: player.expertice },
+    { label: "Batting Rating", value: player.battingRating },
+    { label: "Bowling Rating", value: player.bowlingRating },
+    { label: "Bowling Style", value: player.bowlingStyle },
+    { label: "Fielding Rating", value: player.fieldingRating },
     { label: "Base Price", value: player.basePrice },
   ];
 
@@ -32,7 +32,7 @@ const AuctionPlayerDetails = ({ player }) => {
         </section>
 
         {/* Player details */}
-        <section className="grid grid-cols-1 gap-y-2 sm:gap-y-3 md:gap-y-5 text-[13px] sm:text-[14px] md:text-[20px] flex-1">
+        <section className="grid grid-cols-1 gap-y-4 sm:gap-y-3 md:gap-y-5 text-[15px] sm:text-[16px] md:text-[20px] flex-1">
           {playerData.map((data, index) => (
             <section key={index} className="flex gap-2 items-start">
               {/* Label */}

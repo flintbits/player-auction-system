@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { axiosPost } from "../../services/apiServices";
 import Modal from "../Modal/Modal";
 import { Notyf } from "notyf";
@@ -10,6 +10,8 @@ const AuctionActionPanel = ({
   fetchRandomPlayer,
   hammerPrice,
   setHammerPrice,
+  setRandomPlayer,
+  fetchTeams,
 }) => {
   const [soldToTeam, setSoldToTeam] = useState("");
   const [confirmBidDialog, setConfirmBidDialog] = useState(false);
@@ -36,7 +38,12 @@ const AuctionActionPanel = ({
   });
   const isInputValidated = player && soldToTeam && hammerPrice;
 
-  const { socket } = useSocket();
+  const { socket, connected } = useSocket();
+
+  useEffect(() => {
+    if (!connected) return;
+    socket.emit("bidPlayer", hammerPrice, soldToTeam?.name);
+  }, [hammerPrice, soldToTeam]);
 
   const handleUnsold = async (id) => {
     await axiosPost(`auction/markUnsold/${id}`)
@@ -49,20 +56,33 @@ const AuctionActionPanel = ({
   };
 
   const handleConfirmBid = async () => {
-    await axiosPost("auction/soldPlayer", {
-      teamId: soldToTeam._id,
-      playerId: player._id,
-      price: hammerPrice,
-    })
-      .then((res) => {
-        setSoldToTeam("");
-        setConfirmBidDialog(false);
-        setHammerPrice(0);
-        notyf.success(`${player.name} is sold to ${soldToTeam.name}`);
-      })
-      .catch((e) => {
-        console.log("something went wrong", e);
+    try {
+      await axiosPost("auction/soldPlayer", {
+        teamId: soldToTeam._id,
+        playerId: player._id,
+        price: hammerPrice,
       });
+
+      // Emit safely
+      if (socket?.connected) {
+        socket.emit("endBid", {
+          price: hammerPrice,
+          team: soldToTeam?.name,
+        });
+      }
+
+      // IMPORTANT: fetch BEFORE closing modal / resetting state
+      await fetchTeams();
+
+      setSoldToTeam("");
+      setHammerPrice(0);
+      setConfirmBidDialog(false);
+      setRandomPlayer([]);
+
+      notyf.success(`${player.name} is sold to ${soldToTeam.name}`);
+    } catch (e) {
+      console.error("Failed to confirm bid", e);
+    }
   };
 
   const updateBid = () => {
@@ -75,7 +95,6 @@ const AuctionActionPanel = ({
       currentPrice += 1000;
     }
     setHammerPrice(currentPrice);
-    socket.emit("bidPlayer", currentPrice, "test team");
   };
 
   return (
@@ -134,17 +153,21 @@ const AuctionActionPanel = ({
         Get Player
       </button>
       {confirmBidDialog && (
-        <Modal onClose={() => setConfirmBidDialog(false)}>
-          <section className="flex justify-center flex-col gap-2">
-            <h1 className="font-semibold text-2xl text-gray-700">Proceed?</h1>
-            <p className="font-light text-sm text-gray-500">
-              Confirm bid: <span className="font-medium">{player?.name} </span>
-              to <span className="font-medium">{soldToTeam?.name}</span> for the
-              winning bid of <span className="font-medium">{hammerPrice}</span>{" "}
-              Rupees
+        <Modal
+          onClose={() => setConfirmBidDialog(false)}
+          width="w-[520px] lg:w-[640px]"
+        >
+          <section className="flex justify-center flex-col gap-2 p-4">
+            <h1 className="font-semibold text-4xl text-gray-700">Proceed?</h1>
+            <p className="font-light text-gray-500 text-2xl">
+              Confirm bid:{" "}
+              <span className="font-semibold">{player?.name} </span>
+              to <span className="font-semibold">{soldToTeam?.name}</span> for
+              the winning bid of
+              <span className="font-semibold">{hammerPrice}</span> Rupees
             </p>
           </section>
-          <section className="flex items-center justify-between mt-6">
+          <section className="flex items-center justify-between mt-6 p-4">
             <button
               onClick={() => setConfirmBidDialog(false)}
               className="bg-red-200 active:bg-red-300 text-red-400 rounded p-2 transition-all"

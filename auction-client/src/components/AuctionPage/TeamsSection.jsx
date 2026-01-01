@@ -5,7 +5,7 @@ import { MdOutlineClose } from "react-icons/md";
 import PlayerCard from "./PlayerCard";
 import NotSold from "./NotSold";
 
-const TeamsSection = ({ teamList }) => {
+const TeamsSection = ({ teamList, setRandomPlayer }) => {
   const [showTeamDetails, setShowTeamDetails] = useState(false);
   const [selectedTeam, setSelectedTeam] = useState({});
   const [filterString, setFilterString] = useState("");
@@ -125,7 +125,7 @@ const TeamsSection = ({ teamList }) => {
       )}
       {showUnsold && (
         <Modal onClose={() => setShowUnsold(false)} width="max-w-4xl">
-          <NotSold />
+          <NotSold setRandomPlayer={setRandomPlayer} />
         </Modal>
       )}
     </section>
