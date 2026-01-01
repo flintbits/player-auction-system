@@ -45,14 +45,15 @@ const TeamsSection = ({ teamList }) => {
           filteredList.map((team) => (
             <section
               key={team._id}
-              className="bg-white rounded-md p-2 select-none active:scale-95 transition-all"
+              className="bg-white rounded-md p-3 select-none active:scale-95 transition-all hover:bg-gray-50"
               onClick={() => {
                 setShowTeamDetails(true);
                 setSelectedTeam(team);
               }}
             >
-              <section className="flex items-center gap-2 justify">
-                <section className="w-20 h-20 overflow-hidden relative rounded-md mr-5">
+              <section className="flex items-center gap-3">
+                {/* Team logo */}
+                <section className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 overflow-hidden relative rounded-md shrink-0">
                   <img
                     src={`http://localhost:3000/teamLogo/${team.logo}`}
                     loading="lazy"
@@ -60,9 +61,19 @@ const TeamsSection = ({ teamList }) => {
                     className="w-full h-full object-cover object-center"
                   />
                 </section>
-                <h1 className="font-semibold  text-lg w-1/3">{team.name}</h1>
-                <p className="font-bold text-lg w-1/3">{team.purseValue}</p>
-                <p className="font-bold  text-lg w-1/3">
+
+                {/* Team name */}
+                <h1 className="font-semibold text-[14px] sm:text-[15px] md:text-lg flex-1 truncate">
+                  {team.name}
+                </h1>
+
+                {/* Purse value */}
+                <p className="font-semibold text-[13px] sm:text-[14px] md:text-lg text-gray-700 min-w-[60px] text-right">
+                  {team.purseValue}
+                </p>
+
+                {/* Player count */}
+                <p className="font-semibold text-[13px] sm:text-[14px] md:text-lg text-gray-700 min-w-[40px] text-right">
                   {team.players.length}
                 </p>
               </section>

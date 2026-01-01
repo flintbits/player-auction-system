@@ -92,7 +92,7 @@ const AuctionActionPanel = ({
           className="border-b-1 border-[#E0E0E0]  px-2  h-6  focus:outline-none"
         >
           <option value="">Select a team</option>
-          {teamList.map((team) => (
+          {teamList?.map((team) => (
             <option key={team._id} value={JSON.stringify(team)}>
               {team.name}
             </option>

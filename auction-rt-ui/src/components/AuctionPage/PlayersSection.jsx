@@ -67,7 +67,7 @@ const PlayersSection = ({ teamList, fetchTeams }) => {
           <h1 className="text-lg font-semibold">
             {randomPlayer[0]?.name
               ? `${randomPlayer[0]?.name}`
-              : "No Player found"}
+              : "Waiting for next player"}
           </h1>
         </section>
 
