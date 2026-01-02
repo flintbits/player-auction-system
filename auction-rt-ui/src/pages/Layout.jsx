@@ -13,7 +13,7 @@ export default function Layout() {
   const currentPath = location.pathname;
   const { socket, connected } = useSocket();
 
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [bidInfo, setBidInfo] = useState({
     price: null,
     name: "",
