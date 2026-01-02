@@ -1,4 +1,5 @@
 import { Outlet, Link, useLocation } from "react-router";
+import HomePage from "./HomePage";
 
 export default function Layout() {
   const location = useLocation();
@@ -31,7 +32,7 @@ export default function Layout() {
           </Link>
         </div>
       </nav>
-      <Outlet />
+      {currentPath === "/" ? <HomePage /> : <Outlet />}
     </div>
   );
 }
