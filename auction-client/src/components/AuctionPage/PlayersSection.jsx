@@ -120,9 +120,9 @@ const PlayersSection = ({
           <AuctionPlayerDetails player={randomPlayer[0]} />
         ) : (
           <section className="flex flex-col gap-4 items-center justify-center h-40 mt-2 rounded-md">
-            <p>No player found</p>
+            {/* <p>No player found</p> */}
             <section className="flex items-center gap-2 flex-col justify-between border-1 p-2 rounded-md text-red-500">
-              <p>Note: Click on Round Over if no players are available</p>
+              {/* <p>Note: Click on Round Over if no players are available</p> */}
               <button
                 onClick={() => setRoundOver(true)}
                 className="cursor-pointer bg-red-200 rounded-md p-2 active:scale-95"

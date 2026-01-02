@@ -13,8 +13,12 @@ export default function Layout() {
   const currentPath = location.pathname;
   const { socket, connected } = useSocket();
 
-  const [showModal, setShowModal] = useState(false);
-  const [bidInfo, setBidInfo] = useState({ price: null, team: "" });
+  const [showModal, setShowModal] = useState(true);
+  const [bidInfo, setBidInfo] = useState({
+    price: null,
+    name: "",
+    team: "",
+  });
   const timerRef = useRef(null);
 
   const linkClass = (path) =>
@@ -27,9 +31,10 @@ export default function Layout() {
   useEffect(() => {
     if (!socket || !connected) return;
 
-    const handleBidCompleted = (price, team) => {
+    const handleBidCompleted = (price, name, team) => {
       setBidInfo({
         price,
+        name,
         team,
       });
       setShowModal(true);
@@ -84,12 +89,20 @@ export default function Layout() {
                 Bid Completed
               </p>
 
+              <p className="text-sm font-medium text-gray-600">
+                Player{" "}
+                <span className="font-semibold text-blue-400">
+                  {bidInfo?.name}
+                </span>{" "}
+                sold for{" "}
+              </p>
+
               <h2 className="text-2xl font-bold text-blue-500 leading-tight">
                 {bidInfo?.price}
               </h2>
 
               <p className="text-sm font-medium text-gray-600">
-                Sold to{" "}
+                To{" "}
                 <span className="font-semibold text-blue-400">
                   {bidInfo?.team}
                 </span>

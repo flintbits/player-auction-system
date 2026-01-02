@@ -65,7 +65,7 @@ const AuctionActionPanel = ({
 
       // Emit safely
       if (socket?.connected) {
-        socket.emit("endBid", hammerPrice, soldToTeam?.name);
+        socket.emit("endBid", hammerPrice, player.name, soldToTeam?.name);
       }
 
       // IMPORTANT: fetch BEFORE closing modal / resetting state
