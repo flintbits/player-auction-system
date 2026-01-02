@@ -1,6 +1,6 @@
 const AuctionPlayerDetails = ({ player }) => {
   const playerData = [
-    { label: "Referance number", value: player.referanceNumber },
+    { label: "Reference number", value: player.referanceNumber },
     // { label: "Name", value: player.name.toUpperCase() },
     { label: "Age", value: player.age },
     { label: "Location", value: player.location },
@@ -14,9 +14,9 @@ const AuctionPlayerDetails = ({ player }) => {
   return (
     <section className=" mt-2 p-4 px-8 rounded-md ">
       <section className="flex gap-16 items-start mt-2">
-        <section className="w-150 h-250 relative rounded-md">
+        <section className="w-120 h-120 object-top object-cover relative rounded-md">
           <img
-            src={`http://localhost:3000/playerPic/${player.photo}`}
+            src={player.photo}
             loading="lazy"
             alt={player.name}
             className="w-full h-full object-cover object-center"

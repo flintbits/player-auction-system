@@ -58,12 +58,12 @@ const TeamsSection = ({ teamList, setRandomPlayer }) => {
               }}
             >
               <section className="flex items-center gap-2 justify">
-                <section className="w-20 h-20 overflow-hidden relative rounded-md mr-5">
+                <section className="w-20 aspect-square overflow-hidden relative rounded-md mr-5">
                   <img
-                    src={`http://localhost:3000/teamLogo/${team.logo}`}
+                    src={team.logo}
                     loading="lazy"
                     alt={team.name}
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-contain object-center"
                   />
                 </section>
                 <h1 className="font-semibold  text-lg w-1/3">{team.name}</h1>

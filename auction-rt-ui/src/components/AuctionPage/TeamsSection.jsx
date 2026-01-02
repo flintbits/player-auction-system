@@ -53,12 +53,12 @@ const TeamsSection = ({ teamList }) => {
             >
               <section className="flex items-center gap-3">
                 {/* Team logo */}
-                <section className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 overflow-hidden relative rounded-md shrink-0">
+                <section className="w-12  aspect-square sm:w-16  md:w-20  overflow-hidden relative rounded-md shrink-0">
                   <img
-                    src={`http://localhost:3000/teamLogo/${team.logo}`}
+                    src={team.logo}
                     loading="lazy"
                     alt={team.name}
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-contain object-center"
                   />
                 </section>
 

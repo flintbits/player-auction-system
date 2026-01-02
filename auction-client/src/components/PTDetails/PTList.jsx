@@ -49,8 +49,9 @@ const PTList = ({
 
   return (
     <section
-      className={`bg-[#E0E0E0] cursor-pointer rounded-md flex items-center justify-between transition-all select-none ${selectedRecord === ptDetail._id ? "bg-blue-200" : ""
-        }`}
+      className={`bg-[#E0E0E0] cursor-pointer rounded-md flex items-center justify-between transition-all select-none ${
+        selectedRecord === ptDetail._id ? "bg-blue-200" : ""
+      }`}
       onClick={() => {
         selectedRecord !== ptDetail._id && clearForm();
         setSelectedRecord(ptDetail._id);
@@ -61,7 +62,7 @@ const PTList = ({
           <section className="flex flex-row items-center gap-2">
             <section className="w-20 h-20 overflow-hidden relative rounded-full">
               <img
-                src={`http://localhost:3000/playerPic/${ptDetail.photo}`}
+                src={ptDetail.photo}
                 loading="lazy"
                 alt={ptDetail.name}
                 className="w-full h-full object-cover object-center"
@@ -82,9 +83,7 @@ const PTList = ({
                 <p>{ptDetail.contact}</p>
               </section>
             </section>
-
           </section>
-
         </section>
       ) : (
         <section className="p-2">
