@@ -7,7 +7,7 @@ const AuctionActionPanel = ({ player, currentPrice, currentTeam }) => {
       </p>
 
       <h1 className="text-2xl font-bold text-green-600 leading-tight">
-        ₹{currentPrice}
+        {currentPrice}
       </h1>
 
       {currentTeam && (

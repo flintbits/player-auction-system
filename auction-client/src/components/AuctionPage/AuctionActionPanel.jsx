@@ -65,14 +65,14 @@ const AuctionActionPanel = ({
 
       // Emit safely
       if (socket?.connected) {
-        socket.emit("endBid", hammerPrice, soldToTeam?.name);
+        socket.emit("endBid", hammerPrice, player.name, soldToTeam?.name);
       }
 
       // IMPORTANT: fetch BEFORE closing modal / resetting state
       await fetchTeams();
 
       setSoldToTeam("");
-      setHammerPrice(0);
+      setHammerPrice(hammerPrice);
       setConfirmBidDialog(false);
       setRandomPlayer([]);
 
@@ -160,8 +160,8 @@ const AuctionActionPanel = ({
               Confirm bid:{" "}
               <span className="font-semibold">{player?.name} </span>
               to <span className="font-semibold">{soldToTeam?.name}</span> for
-              the winning bid of
-              <span className="font-semibold">{hammerPrice}</span> Rupees
+              the winning bid of{" "}
+              <span className="font-semibold">{hammerPrice}</span>
             </p>
           </section>
           <section className="flex items-center justify-between mt-6 p-4">
