@@ -51,9 +51,9 @@ export default function Layout() {
   return (
     <div className="min-h-screen bg-gray-50 text-sm">
       <nav className="sticky top-0 z-40 bg-white px-4 py-2 flex items-center justify-between">
-        <section className="w-20 h-20 overflow-hidden relative rounded-md">
+        <section className="w-14 h-14 overflow-hidden relative rounded-md">
           <img
-            src={`http://localhost:3000/teamLogo/Sadana_no_bg.jpg`}
+            src={`/logo.png`}
             loading="lazy"
             alt="logo"
             className="w-full h-full object-cover object-center"
@@ -85,7 +85,7 @@ export default function Layout() {
               </p>
 
               <h2 className="text-2xl font-bold text-blue-500 leading-tight">
-                ₹{bidInfo?.price}
+                {bidInfo?.price}
               </h2>
 
               <p className="text-sm font-medium text-gray-600">
