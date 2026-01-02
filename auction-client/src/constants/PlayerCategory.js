@@ -1,5 +1,5 @@
 export const PLAYERCATEGORY = [
-  { name: "Very Good", value: "Very good" },
-  { name: "Good", value: "Good" },
-  { name: "Average", value: "Average" },
+  { name: "Category 1", value: "Category 1" },
+  { name: "Category 2", value: "Category 2" },
+  { name: "Category 3", value: "Category 3" },
 ];
