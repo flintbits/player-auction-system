@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { axiosGet } from "../../services/apiServices";
 import { MdOutlineClose } from "react-icons/md";
+import { useSocket } from "../../hooks/useSocket";
 
-const NotSold = ({ setRandomPlayer }) => {
+const NotSold = ({ setRandomPlayer, setShowUnsold }) => {
   const [list, setList] = useState([]);
   const [filterString, setFilterString] = useState("");
   const [loading, setLoading] = useState(false);
+  const { socket, connected } = useSocket();
   const filteredList = list?.filter((item) =>
     item.name.toLowerCase().includes(filterString.toLowerCase())
   );
@@ -70,8 +72,9 @@ const NotSold = ({ setRandomPlayer }) => {
                 key={item._id}
                 className="flex justify-between items-center border-b-1 bg-white p-2 border-gray-200 w-full hover:cursor-pointer"
                 onClick={() => {
-                  console.log(item);
-                  setRandomPlayer(item);
+                  setRandomPlayer([item]);
+                  setShowUnsold(false);
+                  socket.emit("nextPlayer", item);
                 }}
               >
                 <p className="w-1/3">{item.name}</p>

@@ -19,10 +19,10 @@ const AuctionPlayerDetails = ({ player }) => {
   ];
 
   return (
-    <section className="mt-2 p-3 md:p-4 md:px-8 rounded-md bg-gray-50">
-      <section className="flex gap-4 md:gap-16 items-start">
+    <section className="mt-2  md:p-4 md:px-8 rounded-md bg-gray-50">
+      <section className="flex flex-col gap-4 md:gap-16 items-start">
         {/* Player image */}
-        <section className="w-[110px] h-[170px] sm:w-[130px] sm:h-[200px] md:w-[150px] md:h-[250px] relative rounded-md overflow-hidden shrink-0 ring-1 ring-gray-200">
+        <section className="w-[110px] h-[120px] sm:w-[130px] sm:h-[200px] md:w-[150px] md:h-[250px] relative rounded-md overflow-hidden shrink-0 ring-1 ring-gray-200 self-center">
           <img
             src={`http://localhost:3000/playerPic/${player.photo}`}
             loading="lazy"
@@ -32,11 +32,14 @@ const AuctionPlayerDetails = ({ player }) => {
         </section>
 
         {/* Player details */}
-        <section className="grid grid-cols-1 gap-y-4 sm:gap-y-3 md:gap-y-5 text-[15px] sm:text-[16px] md:text-[20px] flex-1">
+        <section className=" grid grid-cols-2 gap-y-4 sm:gap-y-3 md:gap-y-5 text-[15px] sm:text-[16px] md:text-[20px] flex-1 ">
           {playerData.map((data, index) => (
-            <section key={index} className="flex gap-2 items-start">
+            <section
+              key={index}
+              className="flex flex-col items-start even:border-l-2 even:pl-6 ml-2 border-gray-300"
+            >
               {/* Label */}
-              <p className="min-w-[80px] sm:min-w-[100px] md:w-[120px] font-semibold text-gray-500">
+              <p className="min-w-[80px] sm:min-w-[100px] md:w-[120px] text-sm  text-gray-500">
                 {data.label}
               </p>
 

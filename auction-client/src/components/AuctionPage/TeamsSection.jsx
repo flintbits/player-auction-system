@@ -125,7 +125,10 @@ const TeamsSection = ({ teamList, setRandomPlayer }) => {
       )}
       {showUnsold && (
         <Modal onClose={() => setShowUnsold(false)} width="max-w-4xl">
-          <NotSold setRandomPlayer={setRandomPlayer} />
+          <NotSold
+            setRandomPlayer={setRandomPlayer}
+            setShowUnsold={setShowUnsold}
+          />
         </Modal>
       )}
     </section>

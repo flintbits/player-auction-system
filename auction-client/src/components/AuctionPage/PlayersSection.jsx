@@ -42,6 +42,12 @@ const PlayersSection = ({
 
   const { socket, connected } = useSocket();
 
+  useEffect(() => {
+    if (hammerPrice > 1000) {
+      setHammerPrice(randomPlayer[0]?.basePrice);
+    }
+  }, [randomPlayer]);
+
   const fetchRandomPlayer = async () => {
     setLoading(true);
     try {
@@ -49,7 +55,7 @@ const PlayersSection = ({
       setResetKey((prev) => !prev);
       await fetchTeams();
       socket.emit("nextPlayer", ...response.data);
-      setHammerPrice(response.data[0].basePrice);
+      setHammerPrice(response.data[0]?.basePrice);
       setRandomPlayer(response.data);
     } catch (e) {
       console.error("Something went wrong", e);

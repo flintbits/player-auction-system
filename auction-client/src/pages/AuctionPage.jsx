@@ -6,6 +6,7 @@ import { axiosGet } from "../services/apiServices";
 const AuctionPage = () => {
   const [teamList, setTeamList] = useState([]);
   const [randomPlayer, setRandomPlayer] = useState([]);
+  console.log({ randomPlayer });
 
   const fetchTeams = async () => {
     try {
